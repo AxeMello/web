@@ -3,25 +3,31 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>ML1503 Full Notes (from PDF)</title>
+<title>ML1503 - Full Notes (aligned)</title>
 <style>
-body{font-family:Arial, Helvetica, sans-serif;margin:0;color:#222;background:#f9f9f9}
-header{background:#2c3e50;color:#fff;padding:14px 16px;text-align:center;font-size:1.2rem}
-#search{width:92%;margin:12px auto;padding:10px;border-radius:8px;border:1px solid #bbb;display:block;font-size:1rem}
-.container{max-width:1000px;margin:12px auto;padding:0 12px}
-details{background:#fff;border:1px solid #ddd;padding:10px;border-radius:8px;margin-bottom:10px;box-shadow:0 1px 3px rgba(0,0,0,0.03)}
-summary{font-weight:700;cursor:pointer;font-size:1rem;color:#1f3b53}
-details[open] summary{color:#c0392b}
-pre{white-space:pre-wrap;word-wrap:break-word;overflow:auto;background:#f6f7f8;border-radius:6px;padding:12px;border:1px solid #eee}
-footer{background:#2c3e50;color:#fff;text-align:center;padding:10px;margin-top:20px}
-small.meta{display:block;color:#666;margin-top:6px}
+  body{background:#f7f7f7;color:#111;font-family: "Courier New", Courier, monospace; margin:0; padding:0;}
+  .wrap{max-width:900px;margin:18px auto;padding:12px;}
+  header{background:#222;color:#fff;padding:14px 16px;text-align:center;font-size:1.1rem;border-radius:6px}
+  #search{width:100%;box-sizing:border-box;padding:10px;margin:12px 0;border-radius:6px;border:1px solid #bbb;font-family:inherit}
+  details{background:#fff;border:1px solid #ccc;padding:8px;border-radius:6px;margin-bottom:10px}
+  summary{font-weight:700;cursor:pointer;padding:6px 4px}
+  details[open] summary{color:#b8322a}
+  pre{white-space:pre-wrap; /* preserve line breaks and long lines */ 
+       font-family:inherit; font-size:13px; line-height:1.18; margin:8px 0; background:#fbfbfb; padding:12px; border-radius:4px; border:1px solid #eee; overflow:auto;}
+  .note-meta{color:#666;font-size:12px;margin-top:6px}
+  footer{text-align:center;color:#666;font-size:12px;padding:14px 0}
+  /* Keep centered column fixed-width feel on small screens */
+  @media (max-width:600px){
+    .wrap{padding:8px;margin:8px}
+    pre{font-size:12px}
+  }
 </style>
 </head>
 <body>
-<header>ML1503 - Full Notes (extracted from PDF)</header>
-<input id="search" placeholder="Search inside notes (type and results filter)...">
-<div class="container">
-<details id="sec-1"><summary>Intro</summary><pre>IIIYEAR/VSEMESTER
+<div class="wrap">
+<header>ML1503 — Full Notes (Aligned & Clean)</header>
+<input id="search" placeholder="Search notes (filters sections)...">
+<details id="s1"><summary>Intro</summary><pre>IIIYEAR/VSEMESTER
 ML1503WEBPROGRAMMING(LABINTEGRATED)Youchoose,wedoit
 St.JOSEPH’SCOLLEGEOFENGINEERING
 DEPARTMENTOFARTIFICIALINTELLIGENCEAND
@@ -31,1409 +37,1223 @@ StaffName:MrN.RajaMohamed
 MsKirubaWesley
 AP/AML
 
-
-ML1503  Web  Programming  Lab                     Department of AML                                        2024-2025 
 1</pre></details>
-<details id="sec-2"><summary>EX No:1</summary><pre></pre></details>
-<details id="sec-3"><summary>EX No:1  Webpage  using  all HTML  elements 
-Date:  
-AIM:  
-To design  a webpage  using  all HTML  elements.  
-ALGORITHM  / DESCRIPTION:  
-Step 1: Set up  the basic structure  
-Start  by creating  an HTML  file and open  it in a text editor.  Add the basic  structure  of 
-an HTML document  
-Step 2: Add a  header  
-Inside  the &lt;body&gt;  element,  add a header  section  using  the &lt;header&gt;  tag. You can 
-include a heading, logo, or any other content you want in the header.  
-Step 3: Create a  navigation menu  
-Below  the header,  add a navigation  section  using  the &lt;nav&gt;  tag. Inside  the &lt;nav&gt;  tag, 
-you can use an unordered  list &lt;ul&gt;  and list items  &lt;li&gt; to create  your navigation menu.  
-Step 4: Add main content  
-After  the navigation,  include  the main  content  of your webpage  inside  the &lt;main&gt;  tag. 
-This can include headings, paragraphs, images, videos, and other elements.  
-Step 5: Save  and view  your webpage  
-Save  your HTML  file with a .html  extension  and open  it in a web browser  to see your 
-webpage design.  
- 
-PROGRAM:  
-&lt;!DOCTYPE  html&gt;  
-&lt;html  lang=&quot;en&quot;&gt;  
-&lt;head&gt;  
-&lt;title&gt;My  Webpage&lt;/title&gt;  
-&lt;style&gt;  
-body{  
-background -image:url(&quot;https://images.unsplash.com/photo -1518655048521 - 
-f130df041f66?ixlib=rb - 
-.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA %3D%3D&amp;auto  
-=format&amp;fit=crop&amp;w=870&amp;q=80&quot;); 
-background -size: 100%;  
-} 
-&lt;/style&gt;  
-&lt;/head&gt;  
-&lt;body&gt;  
-&lt;h1 style=&quot;text -align: center;&quot;&gt;  My Portfolio  &lt;/h1&gt;  
-&lt;div class=&quot;a&quot;&gt;  
-&lt;h2&gt;  RIYA  &lt;/h2&gt;  
-&lt;H4&gt;A  web developer&lt;/H4&gt;  
-&lt;/div&gt;  
-&lt;hr&gt;  
-&lt;h3&gt;About  me&lt;/h3&gt;  
-&lt;p&gt;I  am an IT student studying  at St.Joseph&#x27;s  college  of Engineering&lt;/p&gt;&lt;br&gt;&lt;hr&gt;  
-&lt;h3&gt;Portfolio  Template&lt;/h3&gt;  
+<details id="s2"><summary>EX No:1</summary><pre>EX No:1  Webpage  using  all HTML  elements
+Date:
+AIM:
+To design  a webpage  using  all HTML  elements.
+ALGORITHM  / DESCRIPTION:
+Step 1: Set up  the basic structure
+Start  by creating  an HTML  file and open  it in a text editor.  Add the basic  structure  of
+an HTML document
+Step 2: Add a  header
+Inside  the &lt;body&gt;  element,  add a header  section  using  the &lt;header&gt;  tag. You can
+include a heading, logo, or any other content you want in the header.
+Step 3: Create a  navigation menu
+Below  the header,  add a navigation  section  using  the &lt;nav&gt;  tag. Inside  the &lt;nav&gt;  tag,
+you can use an unordered  list &lt;ul&gt;  and list items  &lt;li&gt; to create  your navigation menu.
+Step 4: Add main content
+After  the navigation,  include  the main  content  of your webpage  inside  the &lt;main&gt;  tag.
+This can include headings, paragraphs, images, videos, and other elements.
+Step 5: Save  and view  your webpage
+Save  your HTML  file with a .html  extension  and open  it in a web browser  to see your
+webpage design.
 
-ML1503  Web  Programming  Lab                     Department of AML                                        2024-2025 
-2  &lt;p&gt;A  free open source portfolio for anyone  use for  free&lt;/p&gt;  
-&lt;ul&gt; 
-&lt;li&gt;&lt;a  href=&quot;https:/ /www.w3schools.com/html/html_basic.asp&quot; &gt;Html&lt;/a&gt;&lt;/li&gt;  
-&lt;li&gt;CSS&lt;/li&gt;  
-&lt;li&gt;Javascript&lt;/li&gt;  
-&lt;/ul&gt;  
-&lt;hr&gt;  
-&lt;h3&gt;Hobbies&lt;/h3&gt;  
-&lt;ol&gt; 
-&lt;li&gt;Watching  Sci-fi&lt;/li&gt;  
-&lt;li&gt;Solving  Puzzles&lt;/li&gt;  
-&lt;li&gt;Riding  Bike&lt;/li&gt;  
-&lt;/ol&gt;  
-&lt;hr&gt;  
-&lt;p style=&quot;text -align:  center;&quot;&gt;THANK  YOU&lt;/p&gt;  
-&lt;/body&gt;  
-&lt;/html&gt;  
- 
-OUTPUT:  
- 
- 
- 
- 
- 
- 
- 
- 
- 
-RESULT:  
+PROGRAM:
+&lt;!DOCTYPE  html&gt;
+&lt;html  lang=&quot;en&quot;&gt;
+&lt;head&gt;
+&lt;title&gt;My  Webpage&lt;/title&gt;
+&lt;style&gt;
+body{
+background -image:url(&quot;https://images.unsplash.com/photo -1518655048521 -
+f130df041f66?ixlib=rb -
+.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA %3D%3D&amp;auto
+=format&amp;fit=crop&amp;w=870&amp;q=80&quot;);
+background -size: 100%;
+}
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;h1 style=&quot;text -align: center;&quot;&gt;  My Portfolio  &lt;/h1&gt;
+&lt;div class=&quot;a&quot;&gt;
+&lt;h2&gt;  RIYA  &lt;/h2&gt;
+&lt;H4&gt;A  web developer&lt;/H4&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3&gt;About  me&lt;/h3&gt;
+&lt;p&gt;I  am an IT student studying  at St.Joseph&#x27;s  college  of Engineering&lt;/p&gt;&lt;br&gt;&lt;hr&gt;
+&lt;h3&gt;Portfolio  Template&lt;/h3&gt;
+
+2  &lt;p&gt;A  free open source portfolio for anyone  use for  free&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a  href=&quot;https:/ /www.w3schools.com/html/html_basic.asp&quot; &gt;Html&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;CSS&lt;/li&gt;
+&lt;li&gt;Javascript&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3&gt;Hobbies&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Watching  Sci-fi&lt;/li&gt;
+&lt;li&gt;Solving  Puzzles&lt;/li&gt;
+&lt;li&gt;Riding  Bike&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;p style=&quot;text -align:  center;&quot;&gt;THANK  YOU&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
 
 
-ML1503  Web  Programming  Lab                     Department of AML                                        2024-2025 
-3  EX No.: 2  Web  page  with  types  of Cascading  style  sheets  and CSS Selectors 
-Date:  
-AIM:  
-To create  a web page  with all types  of Cascading style  sheets  and CSS Selectors  
-ALGORITHM / DESCRIPTION:  
-Step 1: Set up the  HTML  structure  
-Create  an HTML  file and open  it in a text editor.  Add the basic  structure  of an 
-HTML  document  
-Step 2: Create a  CSS file 
-Create  a CSS file named  styles.css  and link it in the &lt;head&gt;  section  of your HTML 
-file using the &lt;link&gt; tag.  
-Step 3: Add CSS rules  for different  types  of CSS 
-Inside  the styles.css  file, you can add CSS rules  for different  types  of CSS.  Here  are 
-examples of different types of CSS you can include  
-1.  Inline  CSS:  
-You can add inline  CSS directly  within  HTML  elements  using  the style  attribute.  
-&lt;h1 style=&quot;color:  blue;&quot;&gt;This  is a heading  with inline  CSS&lt;/h1&gt;  
- 
-2.  Internal  CSS:  
-You can add CSS within  the &lt;style&gt;  tags in the &lt;head&gt;  section  of your HTML  file. 
-&lt;style&gt; 
-h2 { 
-color:  green;  
-} 
-&lt;/style&gt;  
- 
-3.  External  CSS:  
-Create  a separate  CSS file and link it in the &lt;head&gt;  section  of your HTML  file using 
-the &lt;link&gt; tag.  
-&lt;link  rel=&quot;stylesheet&quot;  href=&quot;external -styles.css&quot;&gt;  
-Step 4:  CSS Selectors:  
-Use different  CSS selectors  to style specific  elements.  Here  are a few examples:  
-/* Element  Selector  */ 
-p { 
-color:  red; 
-} 
- 
-/* Class  Selector  */ 
-.highlight { 
-background -color:  yellow;  
-} 
- 
-/* ID Selector  */ 
-#header {  
-font-size: 24px;  
-} 
-
-ML1503  Web  Programming  Lab                     Department of AML                                        2024-2025 
-4  Step 5:  CSS Box Model:  
-You can apply  CSS properties  related  to the box model,  such as padding,  margin,  and 
-border, to control the layout and spacing of elements.  
-.box { 
-width: 200px; 
-height:  200px;  
-border:  1px solid  black; 
-padding: 10px;  
-margin:  20px;  
-} 
-Step 6: Save  and view  your webpage  
-Save  your HTML  and CSS files.  Open  the HTML  file in a web browser  to see your 
-webpage styled with different CSS selectors and rules.  
-PROGRAM:  
-&lt;!DOCTYPE  html&gt;  
-&lt;html  lang=&quot;en&quot;&gt;  
-&lt;head&gt;  
-&lt;meta  charset=&quot;UTF -8&quot;&gt; 
-&lt;meta  name=&quot;viewport&quot;  content=&quot;width=device -width,  initial -scale=1.0&quot;&gt;  
-&lt;title&gt;Document&lt;/title&gt;  
-&lt;style&gt;  
-body{  
-background -image:  url(&quot;pexels -henry -&amp;-co-1939485.jpg&quot;);  
-} 
-#head{  
-text-align:  center;  
-background -color:  rgb(121,  119, 218); 
-border: 3px groove purple;  
-} 
-.main{  
-border:  3px solid  #5f5f5f; 
-margin: 5% 10%; 
-padding: 20px;  
-} 
-tr{ 
-padding:10px;  
-} 
-td{ 
-padding:10px;  
-} 
-#submitbutton{  
-border:  2px inset  rgb(65,  49, 209); 
-border -radius: 30px;  
-width:100px;  
-height:30px;  
-background -color:  rgb(121, 119, 218);  
-} 
-input,select{  
-border -radius:  30px;  
-} 
-&lt;/style&gt;  
-&lt;/head&gt;  
-
-ML1503  Web  Programming  Lab                     Department of AML                                        2024-2025 
-5  &lt;body&gt;  
-&lt;header  id=&quot;head&quot;&gt;  
-&lt;h2&gt;Registration  form&lt;/h2&gt;  
-&lt;/header&gt;  
-&lt;div class=&quot;main&quot;&gt;  
-&lt;center&gt;  
-&lt;table&gt;  
-&lt;tr&gt; 
-&lt;td&gt;User  name:&lt;/td&gt;  
-&lt;td&gt;&lt;input  type=&quot;text&quot;  id=&quot;uname&quot;  placeholder=&quot;enter  user name&quot; required/&gt;&lt;/td&gt;  
-&lt;/tr&gt;&lt;br&gt;  
-&lt;tr&gt;&lt;/tr&gt;  
-&lt;tr&gt; 
-&lt;td&gt;email:&lt;/td&gt;  
-&lt;td&gt;&lt;input  type=&quot;email&quot;  id=&quot;email&quot;  placeholder=&quot;enter  email&quot;  required/&gt;&lt;/td&gt;  
-&lt;/tr&gt;&lt;tr&gt;&lt;/tr&gt;  
-&lt;tr&gt; 
-&lt;td&gt;password:&lt;/td&gt;  
-&lt;td&gt;&lt;input  type=&quot;password&quot;  id=&quot;password&quot;  placeholder= &quot;enter  password&quot; required/&gt;&lt;/td&gt;  
-&lt;/tr&gt;&lt;tr&gt;&lt;/tr&gt;  
-&lt;tr&gt; 
-&lt;td&gt;phone  no:&lt;/td&gt;  
-&lt;td&gt;&lt;input  type=&quot;number&quot;  id=&quot;number&quot;  placeholder=&quot;enter  phone  no&quot; 
-required/&gt;&lt;/td&gt;  
-&lt;/tr&gt;&lt;tr&gt;&lt;/tr&gt;  
-&lt;tr&gt; 
-&lt;td&gt;select  domain:&lt;/td&gt;  
-&lt;td&gt; 
-&lt;select  name=&quot;cars&quot;  id=&quot;domain&quot;&gt;  
-&lt;option  value=&quot;&quot;&gt;please  select  anyone&lt;/option&gt;  
-&lt;option  value=&quot;front -end&quot;&gt;front -end&lt;/option&gt;  
-&lt;option  value=&quot;back -end&quot;&gt;back -end&lt;/option&gt;  
-&lt;option  value=&quot;machine -learning&quot;&gt;machine -learning&lt;/option&gt;  
-&lt;option  value=&quot;cloud&quot;&gt;cloud&lt;/option&gt;  
-&lt;/select&gt;&lt;/td&gt;  
- 
-&lt;/tr&gt;  
- 
-&lt;/table&gt;&lt;b r&gt; 
-&lt;button  class=&quot;but&quot;  id=&quot;submitbutton&quot;&gt;Submit&lt;/button&gt;&lt;br&gt;  
-&lt;/div&gt;  
- 
-&lt;footer  id=&quot;head&quot;&gt;&lt;/footer&gt;  
-&lt;div&gt;&lt;marquee  style=&quot;color:red&quot;&gt;NOTE&lt;sup&gt;*&lt;/sup&gt;STUDENTS  ARE  REQUESTED 
-TO FILL THE FORM WITH CORRECT INFORMATION&lt;/marquee&gt;&lt;/div&gt;  
-&lt;/body&gt;  
-&lt;/html&gt;  
-
-ML1503  Web  Programming  Lab                     Department of AML                                        2024-2025 
-6  OUTPUT:  
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-RESULT:  
 
 
-ML1503  Web  Programming  Lab                     Department of AML                                        2024-2025 
-7</summary><pre></pre></details>
-<details id="sec-4"><summary>EX No: 3</summary><pre></pre></details>
-<details id="sec-5"><summary>EX No: 3  Client  Side Scripts  for Validating  Web  Form  Controls  using  DHTML 
-Date:  
-AIM:  
-To write  a Client -Side script  for validating  web form  controls  using  DHTML.  
-ALGORITHM  / DESCRIPTION:  
-Step 1: Set up your HTML  form  
-Create  an HTML  form  with the required  input  fields  and a submit  button.  Assign 
-unique IDs to each input element that needs validation.  
-Step 2: Define  the validation function  
-Create  a JavaScript  function  that will be called  when  the form  is submitted.  This 
-function will validate the form controls  and display error messages  if necessary.  
-Step 3: Add form  submission event listener  
-Add an event  listener  to the form  element,  which  will call the validateForm()  function 
-when the form is submitted.  
-Step 4: Style  the error  messages  (optional)  
-If you want  to style  the error  messages,  you can add  CSS styles  to display  them  in a 
-more visually appealing way.  
-Step 5: Test your form  validation  
-Save  your HTML  file and open  it in a web browser.  Try submitting  the form  without 
-filling in the  required fields, and you should see  the error messages  being displayed.  
- 
-PROGRAM:  
-&lt;!DOCTYPE html&gt;  
-&lt;html lang=&quot;en&quot;&gt;  
-&lt;head&gt;  
-&lt;meta charset=&quot;UTF -8&quot;&gt; 
-&lt;meta name=&quot;viewport&quot; content=&quot;width=device -width,  initial -scale=1.0&quot;&gt;  
-&lt;title&gt;Document&lt;/title&gt;  
-&lt;style&gt;  
-.head{  
-text-align: center;  
-background -color: rgb(121, 119, 218); border: 3px groove purple;  
-} 
-.main{  
-border: 3px solid #5f5f5f; margin: 5% 10%; padding: 20px;  
-} 
-
-ML1503  Web  Programming  Lab                     Department of AML                                        2024-2025 
-8  tr{ 
-padding:10px;  
-} 
-td{ 
-padding:10px;  
-} 
-.but{  
-border: 2px inset rgb(65, 49, 209);  
-border -radius: 30px;  
-width:100px; height:30px;  
-background -color: rgb(121, 119, 218);  
-} 
-&lt;/style&gt;  
-&lt;/head&gt;  
-&lt;body&gt;  
-&lt;header class=&quot;head&quot;&gt;  
-&lt;h2&gt;Registration form&lt;/h2&gt;  
-&lt;/header&gt;  
-&lt;div class=&quot;main&quot;&gt;  
-&lt;center&gt;  
-&lt;table&gt;  
-&lt;tr&gt; 
-&lt;td&gt;User name:&lt;/td&gt;  
-&lt;td&gt;&lt;input type=&quot;text&quot; id=&quot;uname&quot; placeholder=&quot;enter user name&quot; required 
-onblur=&quot;username()&quot;/&gt;&lt;/td&gt;  
-&lt;/tr&gt;&lt;br&gt;  
-&lt;tr&gt;&lt;/tr&gt;  
-&lt;tr&gt; 
-&lt;td&gt;email:&lt;/td&gt;  
-&lt;td&gt;&lt;input type=&quot;email&quot; id=&quot;email&quot; placeholder=&quot;enter email&quot; required onblur=&quot;email()&quot;/&gt;&lt;/td&gt;  
-&lt;/tr&gt;&lt;tr&gt;&lt;/tr&gt;  
-
-ML1503  Web  Programming  Lab                     Department of AML                                        2024-2025 
-9  &lt;tr&gt; 
-&lt;td&gt;password:&lt;/td&gt;  
-&lt;td&gt;&lt;input type=&quot;password&quot; id=&quot;password&quot; placeholder=&quot;enter password&quot; required 
-onblur=&quot;pass()&quot;/&gt;&lt;/td&gt;  
-&lt;/tr&gt;&lt;tr&gt;&lt;/tr&gt;  
-&lt;tr&gt; 
-&lt;td&gt;Confirm Password:&lt;/td&gt;  
-&lt;td&gt;&lt;input type=&quot;password&quot; id=&quot;cpass&quot; placeholder=&quot;enter confirm pas sword&quot; required 
-onblur=&quot;confirmpass()&quot;/&gt;&lt;/td&gt;  
-&lt;/tr&gt;&lt;tr&gt;&lt;/tr&gt;  
-&lt;tr&gt; 
-&lt;td&gt;select domain:&lt;/td&gt;  
-&lt;td&gt;  
-&lt;select name=&quot;cars&quot; id=&quot;domain&quot;&gt;  
-&lt;option value=&quot;&quot;&gt;please select anyone&lt;/option&gt;  
-&lt;option value=&quot;front -end&quot;&gt;front -end&lt;/option&gt;  
-&lt;option value=&quot;back -end&quot;&gt;back -end&lt;/option&gt;  
-&lt;option value=&quot;machine -learning&quot;&gt;machine -learning&lt;/option&gt;  
-&lt;option value=&quot;cloud&quot;&gt;cloud&lt;/option&gt;  
-&lt;/select&gt;&lt;/td&gt;  
-&lt;/tr&gt;  
-&lt;/table&gt;&lt;br&gt;  
-&lt;button class=&quot;but&quot; onclick=&quot;submit()&quot;&gt;Submit&lt;/button&gt;&lt;br&gt;  
-&lt;/center&gt;  
-&lt;script&gt;  
-function user name(){  
-var name=document.getElementById(&quot;uname&quot;).value;  
-if(name.length&lt;0)  
-alert(&quot;Field Should not be empty&quot;);  
-const regex=&quot;/^[A -Za-z][A-Za-z0-9_]{7,29}$&quot;;  
-if(!regex.test(name))  
-
-ML1503  Web  Programming  Lab                     Department of AML                                        2024-2025 
-10  alert(&quot;Re Enter Name&quot;);  
-} 
-} 
-Function email()  
-{ 
-var email=document.getElement ById(&quot;email&quot;).value;  
-const regex=&quot;/^[a -zA-Z0-9._-]+@[a -zA-Z0-9.-]+\.[a-zA-Z]{2,}$/&quot;;  
-if(email.length&lt;0)  
-{ 
-alert(&quot;Field Should not be empty&quot;);  
-} 
-if(!regex.test(email))  
-alert(&quot;Invalid Email&quot;);  
-} 
-} 
-function pass()  
-{ 
-var pas=document.getElementById (&quot;password&quot;).value;  
-if(pas.length&lt;0)  
-{ 
-alert(&quot;Field Should not be empty&quot;);  
-} 
-} 
-function confirmpass()  
-{ 
-Var p1=document.getElementById(&quot;cpass&quot;).value;  
-var p2= document.getElementById(&quot;password&quot;).value;  
-if(p1!=p2)  
-{ 
-alert(&quot;Password Mismatch&quot;);  
-
-ML1503  Web  Programming  Lab                     Department of AML                                        2024-2025 
-11  } 
-} 
-} 
-&lt;/scri pt&gt; 
-&lt;/body&gt;  
-&lt;/html&gt;  
- 
- 
- 
- 
- 
- 
- 
- 
- 
-OUTPUT:  
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-RESULT:  
 
 
-  
-St. Joseph’s  College  of Engineering  ML1503  Web  Programming  Lab                     Department of AML                                        2024-2025</summary><pre></pre></details>
-<details id="sec-6"><summary>EX No: 4</summary><pre></pre></details>
-<details id="sec-7"><summary>EX No: 4  Design  Image  Slide  Show  and Digital  clock  using  Javascript  and DOM 
-Date:  
-AIM:  
-To design  Image  Slide  Show  and digital  clock  using  Javascript  and DOM.  
-ALGORITHM  / DESCRIPTION:  
-Step 1: Set up the HTML  structure  
-Define  elements  for the slideshow  container,  images,  and clock  display.  
-Step 2: Create  the CSS for styling  
-Style  your slideshow  container  and clock  using  CSS.  Save  this in a file named 
-“styles.css”.  
-Step 3: Implement  the JavaScript logic  
-Create  a JavaScript  file named  “script.js”  and implement  the logic  for the slideshow 
-and digital clock.  
-Image  Slideshow:  A slideshow  container  displays  images  one after another.  The images 
-will transition every 2 seconds (as specified in the setTimeout function).  
-Digital  Clock:  A digital  clock  displays  the current  time.  The time will update  every  second 
-(setTimeout function), and the hours, minutes, and seconds changing in real -time.  
-Step 4: Link everything together  
-Make  sure your HTML  file references  the CSS  file and JavaScript  file you created.  
-Step 5:  Add images  
-Replace  &quot;image1.jpg&quot;,  &quot;image2.jpg&quot;,  and &quot;image3.jpg&quot;  with the actual  paths  of your 
-images.  
- 
- 
- 
- 
- 
- 
-  
- 
-
-St. Joseph’s  College  of Engineering  ML1503  Web  Programming  Lab                     Department of AML                                        2024-2025 
- 
- PROGRAM:  
-&lt;!DOCTYPE  html&gt;  
-&lt;html&gt;  
-&lt;head&gt;  
-&lt;style&gt;  
-/* Style  for the slideshow  container  */ 
-.slideshow -container  { 
-max-width: 600px; 
-position: relative; 
-margin: auto;  
-} 
- 
- 
-/* Hide  all slides  by default */ 
-.mySlides { 
-display:  none;  
-} 
- 
-/* Style  for the digital  clock  */ 
-#clock {  
-font-size: 24px; 
-text-align: center; 
-margin -top: 20px;  
-} 
-&lt;/style&gt;  
-&lt;/head&gt;  
-&lt;body&gt;  
- 
- 
-&lt;div class=&quot;slideshow -container&quot;&gt;  
-&lt;div class=&quot; mySlides&quot;&gt;  
-&lt;img  src=&quot;image1.jpg&quot;  style=&quot;width:100%&quot;&gt;  
-&lt;/div&gt;  
- 
-&lt;div class=&quot;mySlides&quot;&gt;  
-&lt;img  src=&quot;image2.jpg&quot;  style=&quot;width:100%&quot;&gt;  
-&lt;/div&gt;  
-
-St. Joseph’s  College  of Engineering  ML1503  Web  Programming  Lab                     Department of AML                                        2024-2025 
- 
- &lt;div class=&quot;mySlides&quot;&gt;  
-&lt;img  src=&quot;image3.jpg&quot;  style=&quot;width:100%&quot;&gt;  
-&lt;/div&gt;  
-&lt;/div&gt;  
- 
- 
-&lt;div id=&quot;clock&quot;&gt;&lt;/div&gt;  
- 
- 
-&lt;script&gt;  
-// Slideshow  script 
-var slideIndex  = 0; 
-showSlides();  
- 
-function  showSlides()  { 
-var slides  = document.getElementsByClassName(&quot;mySlides&quot;); 
-for (var i = 0; i &lt; slides.length; i++) {  
-slides[i].style.display  = &quot;none&quot;;  
-} 
-slideIndex++;  
-if (slideIndex  &gt; slides.length)  { 
-slideIndex = 1;  
-} 
-slides[slideIndex - 1].style.display = &quot;block&quot;; 
-setTimeout(showSlides,  2000);  // Change  image  every  2 seconds  
-} 
- 
- 
-// Digital clock script 
-function  updateClock()  { 
-var now = new Date();  
-var hours  = now.getHours();  
-var minutes  = now.getMinutes(); 
-var seconds =  now.getSeconds();  
- 
-// Add leading  zeros  if needed  
-hours  = (hours &lt;  10) ? &quot;0&quot; + hours  : hours;  
-minutes  = (minutes  &lt; 10) ? &quot;0&quot; + minutes  : minutes; 
-seconds  = (seconds  &lt; 10) ? &quot;0&quot; + seconds  : seconds;  
-
-St. Joseph’s  College  of Engineering  ML1503  Web  Programming  Lab                     Department of AML                                        2024-2025 
- 
- 
- 
-var currentTime = hours + &quot;:&quot; + minutes + &quot;:&quot; + seconds; 
-document.getElementById(&quot;clock&quot;).textContent  = currentTime;  
- 
-setTimeout(updateClock,  1000);  // Update  every  second  
-} 
- 
- 
-updateClock();  // Initial call  to start  the clock  
-&lt;/script&gt;  
- 
- 
-&lt;/body&gt;  
-&lt;/html&gt;  
- 
- 
- 
-OUTPUT:  
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-  
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-RESULT:   
- 
-
-St. Joseph’s  College  of Engineering  ML1503  Web  Programming  Lab                     Department of AML                                        2024-2025</summary><pre></pre></details>
-<details id="sec-8"><summary>EX No:5</summary><pre></pre></details>
-<details id="sec-9"><summary>EX No:5  Develop  an online  quiz system  using  Javascript  and DOM 
-Date:  
-AIM:  
-To design  and develop  a web application  to implement  an online  quiz system  using 
-Javascript and DOM.  
-ALGORITHM  / DESCRIPTION:  
-Step 1: Project  Setup:  
-Create  a project  directory  and organize  your files.  You&#x27;ll  need  HTML,  CSS,  and 
-JavaScript files. Here&#x27;s a basic structure:  
-- index.html  
-- style.css  
-- script.js  
-Step 2: HTML  Structure:  
-Set up the basic  HTML  structure  for your quiz application.  Define  containers  for 
-questions, options, and buttons.  
-Step 3:  CSS Styling:  
-Style  your quiz interface using  CSS to make  it visually  appealing  and user-friendly.  
-Step 4: JavaScript  Logic:  
-Implement  the quiz logic using  JavaScript and  the DOM.  
-
-St. Joseph’s  College  of Engineering  ML1503  Web  Programming  Lab                     Department of AML                                        2024-2025 
- 
- PROGRAM:  (.html  page)  
-&lt;!DOCTYPE  html&gt;  
-&lt;html  lang=&quot;en&quot;&gt;  
-&lt;head&gt;  
-&lt;meta  charset=&quot;UTF -8&quot;&gt; 
-&lt;meta  http-equiv=&quot;X -UA-Compatible&quot;  content=&quot;IE=edge&quot;&gt;  
-&lt;meta  name=&quot;viewport&quot;  content=&quot;width=device -width,  initial -scale=1.0&quot;&gt;  
-&lt;link  rel=&quot;stylesheet&quot;  href=&quot;style.css&quot;&gt;  
-&lt;/head&gt;  
-&lt;body&gt;  
-&lt;div class=&quot;panel&quot;&gt;  
-&lt;h1&gt;Quiz  Application Using JavaScript&lt;/h1&gt;  
-&lt;div class=&quot;question&quot;  id=&quot;ques&quot;&gt;&lt;/div&gt;  
-&lt;div class=&quot;options&quot;  id=&quot;opt&quot;&gt;&lt;/div&gt;  
-&lt;button  onclick=&quot;checkAns()&quot;  id=&quot;btn&quot;&gt;SUBMIT&lt;/button&gt;  
-&lt;div id=&quot;score&quot;&gt;&lt;/div&gt;  
-&lt;script  src=&quot;script.js&quot;&gt;&lt;/script&gt;  
-&lt;/div&gt;  
-&lt;/body&gt;  
-&lt;/html&gt;  
-(.css file) 
- 
-body { 
- 
- 
-}  
-background -color:  aliceblue;  
-.panel  { 
-margin -top: 8%; 
-display: flex;  
-flex-direction:  column; 
-align -items: center; 
-justify -content: center; 
-color: navy;  
-} 
-.question { 
-font-size: 30px; 
-margin -bottom:  20px;  
-
-St. Joseph’s  College  of Engineering  ML1503  Web  Programming  Lab                     Department of AML                                        2024-2025 
- 
- } 
- 
- 
-.options  { 
-font-size: 20px; 
-display: grid;  
-grid-template -columns:  repeat(2,  1fr); 
-grid-gap: 20px;  
-margin -top: 10px; 
-margin -bottom:  20px; 
-position: fixed;  
-top: 40%;  
-left: 40%;  
-} 
-button { 
-margin -right: 75px; 
-margin -top: 8%; 
-font-size: 20px; 
-padding:  10px  20px;  
-background -color:  #4f98c2; 
-color: white;  
-border: none; 
-cursor:  pointer;  
-} 
-#score  { 
-font-size: 30px; 
-color:  darkslategray;  
-} 
-(.js page)  
- 
-// Questions  that will be asked 
-const Questions = [{  
-q: &quot;What  is capital  of India?&quot;,  
-a: [{ text: &quot;Gandhinagar&quot;,  isCorrect:  false  }, { text: &quot;Surat&quot;,  isCorrect:  false  }, 
-{ text: &quot;Delhi&quot;,  isCorrect:  true }, { text: &quot;Mumbai&quot;,  isCorrect:  false  } ] 
-}, 
-{ 
-
-St. Joseph’s  College  of Engineering  ML1503  Web  Programming  Lab                     Department of AML                                        2024-2025 
- 
- q: &quot;What  is the capital  of Thailand?&quot;,  
-a: [{ text: &quot;Lampang&quot;,  isCorrect:  false,  isSelected:  false  }, 
-{ text: &quot;Phuket&quot;,  isCorrect:  false  }, { text: &quot;Ayutthaya&quot;,  isCorrect:  false  }, 
-{ text: &quot;Bangkok&quot;,  isCorrect:  true } ] 
-}, 
-{ 
-q: &quot;What is the capital of Gujarat&quot;, 
-a: [{ text: &quot;Surat&quot;,  isCorrect:  false  }, 
-{ text: &quot;Vadodara&quot;,  isCorrect:  false  }, 
-{ text: &quot;Gandhinagar&quot;,  isCorrect:  true }, 
-{ text: &quot;Rajkot&quot;,  isCorrect:  false  } 
-] 
- 
- 
-} 
- 
- 
-] 
- 
- 
-let currQuestion  = 0 
-let score = 0  
- 
-function  loadQues()  { 
-const  question  = document.getElementById(&quot;ques&quot;) 
-const opt = document.getElementById(&quot;opt&quot;)  
- 
-question.textContent  = Questions[currQuestion ].q; 
-opt.innerHTML = &quot;&quot;  
- 
-for (let i = 0; i &lt; Questions[currQuestion].a.length; i++) { 
-const choicesdiv = document.createElement(&quot;div&quot;); 
-const choice = document.createElement(&quot;input&quot;);  
-const  choiceLabel  = document.createElement(&quot;label&quot;);  
- 
-choice.type = &quot;rad io&quot;; 
-choice.name  = &quot;answer&quot;; 
-choice.value = i;  
-
-St. Joseph’s  College  of Engineering  ML1503  Web  Programming  Lab                     Department of AML                                        2024-2025 
- 
- choiceLabel.textContent  = Questions[currQuestion].a[i].text;  
- 
- 
-choicesdiv.appendChild(choice); 
-choicesdiv.appendChild(choiceLabel); 
-opt.appendChild(choicesdiv);  
-} 
-} 
- 
- 
-loadQues();  
- 
- 
-function  loadScore()  { 
-const totalScore = document.getElementById(&quot;score&quot;) 
-totalScore.textContent  = `You  scored  ${score}  out of ${Questions.length}`  
-} 
- 
- 
- 
-function  nextQuestion()  { 
-if (currQuestion  &lt; Questions.length  - 1) { 
-currQuestion++;  
-loadQues();  
-} else { 
-document.getElementById(&quot;opt&quot;).remove() 
-document.getElementById(&quot;ques&quot;).remove() 
-document.getElementById(&quot;btn&quot;).remove() 
-loadScore();  
-} 
-} 
- 
- 
-function  checkAns()  { 
-const selectedAns = 
-parseInt(document.querySelector(&#x27;input[name=&quot;answer&quot;]:checked&#x27;).value);  
- 
-if (Questions[currQuestion].a[selectedAns].isCorrect)  { 
-score++;  
-console.log(&quot;Correct&quot;) 
-nextQuestion();  
-
-St. Joseph’s  College  of Engineering  ML1503  Web  Programming  Lab                     Department of AML                                        2024-2025 
- 
- } else { 
-nextQuestion();  
-} 
-} 
- 
- 
-OUTPUT:  
- 
- 
- 
-RESULT:  
 
 
-St. Joseph’s  College  of Engineering  ML1503  Web  Programming  Lab                     Department of AML                                        2024-2025</summary><pre></pre></details>
-<details id="sec-10"><summary>EX No: 6</summary><pre></pre></details>
-<details id="sec-11"><summary>EX No: 6 Use built -in Angular  directives  to show  and hide elements  
-and display  lists of data.  
-Date:  
-AIM:  
-To Use built-in Angular  directives  to show  and hide elements  and display  lists of data. 
-ALGORITHM  / DESCRIPTION:  
-Step 1: Create  a New  Angular  Project:  
-If don&#x27;t  have  an Angular  project  already,  create  one using  Angular  CLI: 
-ng new your -project -name  
-Replace  your-project -name  with the desired  name  for your project.  
-Step 2: Create  a Component:  
-Navigate  into project&#x27;s  directory  and create  a new component  using  Angular  CLI: 
-ng generate component example  
-Step 3: Edit the Component HTML  Template:  
-Open  the generated  “example.component.html”  file located  in the “src/app/example/”  folder.  
-Step 4: Edit the Component  TypeScript  File: 
-Open  the generated “example.component.ts”  file located  in the “src/app/example/”  folder.  
-Step 5: Add the Component to  a Parent Component:  
-Open  the “app.component.html”  file located  in the “src/app/  folder”.  Replace  the 
-content with the html code to add the app -example component.  
-Step 6: Run the  Application:  
-Navigate  to http://localhost:4200/  in your web browser  to see the running  application. 
-ng serve  
-
-St. Joseph’s  College  of Engineering  ML1503  Web  Programming  Lab                     Department of AML                                        2024-2025 
- 
- PROGRAM:  (.html  page)  
-&lt;button  (click)=&quot;toggle()&quot;  id=&quot;bt&quot;&gt;  
-{{buttonName}}  
-&lt;/button&gt;  
-&lt;ng-container  *ngIf=&quot;show&quot;&gt;  
-&lt;div style=&quot;margin:  0 auto;text -align:  left;&quot;&gt;  
-&lt;div&gt;  
-&lt;label&gt;Name:&lt;/label&gt;  
-&lt;div&gt;&lt;input  id=&quot;tbname&quot;  name=&quot;yourname&quot;  /&gt;&lt;/div&gt;  
-&lt;/div&gt;  
-&lt;div&gt;  
-&lt;label&gt;Email  Address:&lt;/label&gt;  
-&lt;div&gt;&lt;input  name=&quot;email&quot;  id=&quot;email&quot;  /&gt;&lt;/div&gt;&lt;/div&gt;  
-&lt;div&gt;  
-&lt;label&gt;Additional  Information  (optional):&lt;/label&gt;  
-&lt;div&gt;&lt;textarea  rows=&quot;5&quot;  cols=&quot;46&quot;&gt;&lt;/textarea&gt;&lt;/div&gt;  
-&lt;/div&gt;  
-&lt;/div&gt;  
-&lt;/ng-container&gt;  
-Typescript  page  
-import  { Component, OnInit  } from &#x27;@angular/core&#x27;;  
- 
- 
-@Component({ 
-selector:  &#x27;app-root&#x27;,  
-templateUrl:  &#x27;./app.component.html&#x27;, 
-styleUrls: [&#x27;./app.component.css&#x27;]  
-}) 
-export class AppComponent { 
-public show:boolean = false; 
-public  buttonName:any  = &#x27;Show&#x27;;  
- 
-ngOnInit  () { } 
- 
- 
-toggle()  { 
-this.show  = !this.show;  
-
-St. Joseph’s  College  of Engineering  ML1503  Web  Programming  Lab                     Department of AML                                        2024-2025 
- 
- // Change  the name  of the button. 
-if(this.show)  
-this.buttonName  = &quot;Hide&quot;; 
-else 
-this.buttonName  = &quot;Show&quot;;  
-} 
-} 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-RESULT:  
 
 
-St. Joseph’s  College  of Engineering  ML1503  Web  Programming  Lab                     Department of AML                                        2024-2025</summary><pre></pre></details>
-<details id="sec-12"><summary>EX No: 7</summary><pre></pre></details>
-<details id="sec-13"><summary>EX No: 7  Design  a shopping  cart application  using  AngularJS 
-Date:  
-AIM:  
-To Design  a shopping  cart application  using  AngularJS.  
-The shopping webpage  should have  provisions  for 
- Selecting  the list of items  from  a different category,  
- Once  the items  are selected  by clicking  the submit  button  the items  in the cart 
-with its price should be displayed  
-ALGORITHM  / DESCRIPTION:  
-Step 1: Set Up the  Project:  
-Create  a new directory  for your project  and set up a basic  AngularJS  structure  with the 
-necessary files (HTML, JavaScript, CSS).  
-Step 2: Create  HTML  Structure:  
-In your HTML  file (e.g.,  index.html),  create  the basic  structure  for your shopping  cart 
-application. Need areas to display available items, select categories, and display the 
-cart content.  
-Step 3: Create  AngularJS  Application  and Controller:  
- &lt;html  ng-app&gt;  – It tells Angular  which  parts  of the page  it should handle.  
- &lt;body  ng-controller=’CartController’&gt;  – SCartController will handle  everything  between  
-&lt;body&gt;  and &lt;/body&gt;.  
- &lt;tr ng-repeat=”item  in items”&gt;  – It creates  an array  of item.  
- &lt;td&gt;{{item.Name}}&lt;/td&gt;  – Display  Product  Name  
- &lt;td&gt;&lt;input  ng-model=’item.quantity’&gt;&lt;/td&gt;  – The ng-model  makes  data binding  between  the 
-input field and the value of quantity.  
- &lt;td&gt;{{item.price  | currency}}&lt;/td&gt;  – Display  the price  of item in $ using  currency tag. 
- &lt;td&gt;  {{item.price  * item.quantity  | currency}}&lt;/td&gt;  – It displays  the total price  of the item 
-which is the multiplication of price and quantity.  
- &lt;button  ng-click=‘remove  ($index)’&gt;Remove&lt;/button&gt;  – Creates  a button  remove.  It will 
-remove the item if y ou click on this button.  
- function  SCartController($scope)  { } – Manages  the logic  of this application.  
- $scope.items  = [ ]; – It defines  the collection of  item for  your shopping  cart application.  
-Step 4: : Style  Application (Optional):  
-Open  the generated “ example.component.ts”  file located  in the “src/app/example/”  folder.  
-Step 5: Run Application  
-Open  the “app.component.html”  file located  in the “src/app/  folder”.  Replace  the 
-content with the html code to add the app -example component.  
 
-St. Joseph’s  College  of Engineering  ML1503  Web  Programming  Lab                     Department of AML                                        2024-2025 
- 
-  
-PROGRAM:  
-&lt;html  ng-app=&#x27;scartApp&#x27;&gt;  
-&lt;head&gt;  
-&lt;script  src=&quot;http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js&quot; &gt;&lt;/script&gt;  
-&lt;title&gt;Shopping  Cart&lt;/title&gt;  
-&lt;/head&gt;  
-&lt;body  ng-controller=&#x27;SCartController&#x27;&gt;  
-&lt;h1&gt;Shopping  Cart Application&lt;/h1&gt;  
-&lt;div&gt;  
-&lt;table  border =  &quot;1&quot;&gt; 
-&lt;tr&gt; 
-&lt;td&gt;&lt;b&gt;Product  Name&lt;/b&gt;&lt;/td&gt;  
-&lt;td&gt;&lt;b&gt;Quantity&lt;/b&gt;&lt;/td&gt;  
-&lt;td&gt;&lt;b&gt;Price&lt;/b&gt;&lt;/td&gt;  
-&lt;td&gt;&lt;b&gt;Total  Price&lt;/b&gt;&lt;/td&gt;  
-&lt;td&gt;&lt;b&gt;Operation&lt;/b&gt;&lt;/td&gt;  
-&lt;/tr&gt;  
-&lt;tr ng-repeat=&quot;item  in items&quot;&gt;  
-&lt;td&gt;{{item.Name}}&lt;/td&gt;  
-&lt;td&gt;&lt;input  ng-model=&#x27;item.quantity&#x27;&gt;&lt;/td&gt;  
-&lt;td&gt;{{item.price  | currency}}&lt;/td&gt;  
-&lt;td&gt;  {{item.price  * item.quantity |  currency}}&lt;/td&gt;  
-&lt;td&gt;&lt;button  ng-click=&quot;remove($number)&quot;&gt;Remove&lt;/button&gt;&lt;/td&gt;  
-&lt;/tr&gt;  
-&lt;/table&gt;  
-&lt;/div&gt; 
-&lt;script&gt;  
-var sapp = angular.module(&#x27;scartApp&#x27;, []); 
-sapp.controller(&#x27;SCartController&#x27;,  [&#x27;$scope&#x27;,  function($scope)  { 
-$scope.items  = [ 
-{Name:  &#x27;Saree&#x27;,  quantity:  10, price:  100},  
-{Name:  &#x27;Mojari&#x27;, quantity:  12, price: 40}, 
-{Name:  &#x27;Bangles&#x27;,  quantity:8,  price:  15}, 
-{Name:  &#x27;Jeans&#x27;,  quantity:5,  price:  20} 
-]; 
+3</pre></details>
+<details id="s3"><summary>EX No.: 2</summary><pre>EX No.: 2  Web  page  with  types  of Cascading  style  sheets  and CSS Selectors
+Date:
+AIM:
+To create  a web page  with all types  of Cascading style  sheets  and CSS Selectors
+ALGORITHM / DESCRIPTION:
+Step 1: Set up the  HTML  structure
+Create  an HTML  file and open  it in a text editor.  Add the basic  structure  of an
+HTML  document
+Step 2: Create a  CSS file
+Create  a CSS file named  styles.css  and link it in the &lt;head&gt;  section  of your HTML
+file using the &lt;link&gt; tag.
+Step 3: Add CSS rules  for different  types  of CSS
+Inside  the styles.css  file, you can add CSS rules  for different  types  of CSS.  Here  are
+examples of different types of CSS you can include
+1.  Inline  CSS:
+You can add inline  CSS directly  within  HTML  elements  using  the style  attribute.
+&lt;h1 style=&quot;color:  blue;&quot;&gt;This  is a heading  with inline  CSS&lt;/h1&gt;
 
-St. Joseph’s  College  of Engineering  ML1503  Web  Programming  Lab                     Department of AML                                        2024-2025 
- 
- $scope.remove  = function(number)  { 
-$scope.items.splice(number,  1); 
-} 
-}]); 
-&lt;/script&gt;  
-&lt;/body&gt;  
-&lt;/html&gt;&lt;button  ng-click=&quot;remove($index)&quot;&gt;Remove&lt;/button&gt;  
-&lt;/div&gt;  
-&lt;script  src=&quot;angular.js&quot;&gt;&lt;/script&gt;  
-&lt;script&gt;  
-function  CartController($scope)  { 
-$scope.items  = [ 
-{title:  &#x27;Paint  pots&#x27;,  quantity:  8, price:  3.95},  
-{title:  &#x27;Polka  dots&#x27;,  quantity:  17, price:  12.95},  
-{title:  &#x27;Pebbles&#x27;,  quantity:  5, price:  6.95}  
-]; 
-$scope.remove  = function(index)  { 
-$scope.items.splice(index,  1); 
-} 
-} 
-&lt;/script&gt;  
-&lt;/body&gt;  
-&lt;/html&gt;  
- 
-OUTPUT:  
- 
-RESULT:  
+2.  Internal  CSS:
+You can add CSS within  the &lt;style&gt;  tags in the &lt;head&gt;  section  of your HTML  file.
+&lt;style&gt;
+h2 {
+color:  green;
+}
+&lt;/style&gt;
 
+3.  External  CSS:
+Create  a separate  CSS file and link it in the &lt;head&gt;  section  of your HTML  file using
+the &lt;link&gt; tag.
+&lt;link  rel=&quot;stylesheet&quot;  href=&quot;external -styles.css&quot;&gt;
+Step 4:  CSS Selectors:
+Use different  CSS selectors  to style specific  elements.  Here  are a few examples:
+/* Element  Selector  */
+p {
+color:  red;
+}
 
-St. Joseph’s  College  of Engineering  ML1503  Web  Programming  Lab                     Department of AML                                        2024-2025</summary><pre></pre></details>
-<details id="sec-14"><summary>EX No: 8</summary><pre></pre></details>
-<details id="sec-15"><summary>EX No: 8 Design  a Command  Line  Application  for an online  supermarket  
-using  Node  JS and MySQL  database  
-Date:  
- 
-AIM:  
-Design  a Command  Line Application  for an online supermarket  using  Node JS  and 
-MySQL  database  
-a) To perform  a search  based  on product  id or name  
-b) On retrieving  the results,  display  the product  details  of different  brands  in table  format 
-with the Price field in sorted order  
- 
-ALGORITHM  / DESCRIPTION:  
-Step 1: Set Up the  Project:  
- Create a new directory for project. 
-mkdir  online -supermarket -cli 
-cd online -supermarket -cli 
- Open  a terminal  window  and navigate  to the project  directory.  
- Run npm init to  initialize  a new Node.js  project.  
-npm  init 
- Follow  the prompts  to set up your package.json  file. 
- Install  required  dependencies:  
-npm  install  mysql  inquirer  cli-table3  
-Step 2: Set Up  MySQL  Database:  
- Install  MySQL  on your Linux  system if  not already installed.  
- Create  a new database  and a table  to store  products.  
-Set up your MySQL  database  with a table  named  “products” . The table  should 
-have columns such as “ id, name, brand, and price” . 
-Step 3: Create the  Command Line  Interface  (CLI):  
-Create  a new file named cli.js  in your project directory.  
-Inside  cli.js,  import  the necessary  modules  and create  a function  for searching 
-products  
-Step 4:  Run the CLI  Application:  
- Open  a terminal  window.  
- Navigate  to your project  directory.  
- Run the application  using  node  app.js . 
- The application  will prompt  you to enter  a product  ID or name  to search  for. It will 
-then display the search results.  
- Remember  to replace  placeholders  like &#x27;your_username&#x27; , &#x27;your_password&#x27; , and 
-&#x27;your_database_name&#x27;  with actual  database  credentials  and names.  
+/* Class  Selector  */
+.highlight {
+background -color:  yellow;
+}
 
-St. Joseph’s  College  of Engineering  ML1503  Web  Programming  Lab                     Department of AML                                        2024-2025 
- 
- PROGRAM:  (Javascript  code)  
- 
-const mysql = require(&#x27;mysql&#x27;); 
-const  inquirer  = require(&#x27;inquirer&#x27;); 
-const Table = require(&#x27;cli -table3&#x27;);  
- 
-// Create  a MySQL  connection  
-const  connection  = mysql.createConnection({ 
-host: &#x27;localhost&#x27;,  
-user: &#x27;your_db_username&#x27;, 
-password:  &#x27;your_db_password&#x27;, 
-database: &#x27;your_db_name&#x27;,  
-}); 
- 
- 
-connection.connect((err)  =&gt; { 
-if (err) {  
-console.error(&#x27;Error  connecting  to the database:&#x27;,  err); 
-return;  
-} 
-console.log(&#x27;Connected  to the database&#x27;); 
-startSearch();  
-}); 
- 
- 
-function  startSearch()  { 
-inquirer  
-.prompt([  
-{ 
-type: &#x27;input&#x27;,  
-name:  &#x27;searchQuery&#x27;,  
-message:  &#x27;Enter  product ID  or name:&#x27;,  
-}, 
-]) 
-.then((answers)  =&gt; { 
-const  query  = `SELECT  * FROM  products  WHERE  id LIKE  ? OR name  LIKE  ?`; 
-const searchTerm = `%${answers.searchQuery}%`;  
-connection.query(query,  [searchTerm,  searchTerm],  (err, results)  =&gt; { 
+/* ID Selector  */
+#header {
+font-size: 24px;
+}
 
-St. Joseph’s  College  of Engineering  ML1503  Web  Programming  Lab                     Department of AML                                        2024-2025 
- 
- if (err) { 
-console.error(&#x27;Error  executing  query:&#x27;,  err); 
-connection.end();  
-return;  
-} 
-if (results.length === 0) { 
-console.log(&#x27;No  products  found.&#x27;);  
-} else { 
-displayProductDetails(results);  
-} 
-connection.end();  
-}); 
-}); 
-} 
- 
- 
-function  displayProductDetails(products)  { 
-const table = new Table({  
-head:  [&#x27;ID&#x27;,  &#x27;Name&#x27;,  &#x27;Brand&#x27;,  &#x27;Price&#x27;], 
-colWidths: [10, 30, 20, 10],  
-}); 
-products.sort((a,  b) =&gt; a.price  - b.price); 
-products.forEach((product) =&gt; {  
-table.push([product.id,  product.name,  product.brand,  `$${product.price.toFixed(2)}`]);  
-}); 
- 
- 
-console.log(table.toString());  
-} 
+4  Step 5:  CSS Box Model:
+You can apply  CSS properties  related  to the box model,  such as padding,  margin,  and
+border, to control the layout and spacing of elements.
+.box {
+width: 200px;
+height:  200px;
+border:  1px solid  black;
+padding: 10px;
+margin:  20px;
+}
+Step 6: Save  and view  your webpage
+Save  your HTML  and CSS files.  Open  the HTML  file in a web browser  to see your
+webpage styled with different CSS selectors and rules.
+PROGRAM:
+&lt;!DOCTYPE  html&gt;
+&lt;html  lang=&quot;en&quot;&gt;
+&lt;head&gt;
+&lt;meta  charset=&quot;UTF -8&quot;&gt;
+&lt;meta  name=&quot;viewport&quot;  content=&quot;width=device -width,  initial -scale=1.0&quot;&gt;
+&lt;title&gt;Document&lt;/title&gt;
+&lt;style&gt;
+body{
+background -image:  url(&quot;pexels -henry -&amp;-co-1939485.jpg&quot;);
+}
+#head{
+text-align:  center;
+background -color:  rgb(121,  119, 218);
+border: 3px groove purple;
+}
+.main{
+border:  3px solid  #5f5f5f;
+margin: 5% 10%;
+padding: 20px;
+}
+tr{
+padding:10px;
+}
+td{
+padding:10px;
+}
+#submitbutton{
+border:  2px inset  rgb(65,  49, 209);
+border -radius: 30px;
+width:100px;
+height:30px;
+background -color:  rgb(121, 119, 218);
+}
+input,select{
+border -radius:  30px;
+}
+&lt;/style&gt;
+&lt;/head&gt;
 
-St. Joseph’s  College  of Engineering  ML1503  Web  Programming  Lab                     Department of AML                                        2024-2025 
- 
- OUTPUT:  
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-RESULT:  
+5  &lt;body&gt;
+&lt;header  id=&quot;head&quot;&gt;
+&lt;h2&gt;Registration  form&lt;/h2&gt;
+&lt;/header&gt;
+&lt;div class=&quot;main&quot;&gt;
+&lt;center&gt;
+&lt;table&gt;
+&lt;tr&gt;
+&lt;td&gt;User  name:&lt;/td&gt;
+&lt;td&gt;&lt;input  type=&quot;text&quot;  id=&quot;uname&quot;  placeholder=&quot;enter  user name&quot; required/&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;br&gt;
+&lt;tr&gt;&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;email:&lt;/td&gt;
+&lt;td&gt;&lt;input  type=&quot;email&quot;  id=&quot;email&quot;  placeholder=&quot;enter  email&quot;  required/&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;password:&lt;/td&gt;
+&lt;td&gt;&lt;input  type=&quot;password&quot;  id=&quot;password&quot;  placeholder= &quot;enter  password&quot; required/&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;phone  no:&lt;/td&gt;
+&lt;td&gt;&lt;input  type=&quot;number&quot;  id=&quot;number&quot;  placeholder=&quot;enter  phone  no&quot;
+required/&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;select  domain:&lt;/td&gt;
+&lt;td&gt;
+&lt;select  name=&quot;cars&quot;  id=&quot;domain&quot;&gt;
+&lt;option  value=&quot;&quot;&gt;please  select  anyone&lt;/option&gt;
+&lt;option  value=&quot;front -end&quot;&gt;front -end&lt;/option&gt;
+&lt;option  value=&quot;back -end&quot;&gt;back -end&lt;/option&gt;
+&lt;option  value=&quot;machine -learning&quot;&gt;machine -learning&lt;/option&gt;
+&lt;option  value=&quot;cloud&quot;&gt;cloud&lt;/option&gt;
+&lt;/select&gt;&lt;/td&gt;
+
+&lt;/tr&gt;
+
+&lt;/table&gt;&lt;b r&gt;
+&lt;button  class=&quot;but&quot;  id=&quot;submitbutton&quot;&gt;Submit&lt;/button&gt;&lt;br&gt;
+&lt;/div&gt;
+
+&lt;footer  id=&quot;head&quot;&gt;&lt;/footer&gt;
+&lt;div&gt;&lt;marquee  style=&quot;color:red&quot;&gt;NOTE&lt;sup&gt;*&lt;/sup&gt;STUDENTS  ARE  REQUESTED
+TO FILL THE FORM WITH CORRECT INFORMATION&lt;/marquee&gt;&lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;
 
 
-St. Joseph’s  College  of Engineering  30 ML1503  Web  Programming  Lab                     Department of AML                                        2024-2025</summary><pre></pre></details>
-<details id="sec-16"><summary>EX No: 9</summary><pre></pre></details>
-<details id="sec-17"><summary>EX No: 9 Build  an API by following  AJAX  Application  
-Date:  
- 
-AIM:  
-To build  an API by following  AJAX  Application  
- 
-ALGORITHM  / DESCRIPTION:  
-Step 1: Create  Frontend  Files:  
- Create  an HTML  file to serve  as the foundation of your  frontend  application.  
- Create  a JavaScript file  to write  your frontend logic.  
-Step 2: Design the  UI: 
- Design  the user interface  using  HTML  and CSS.  
- Include  input  fields,  buttons,  and elements  to display  fetched  data.  
-Step 3: AJAX  Requests:  
- In your JavaScript  file, write  code  to make  AJAX requests  to your API. 
- Use the XMLHttpRequest  object or  the modern  Fetch  API for sending requests.  
-Step 4: Handle Responses:  
- Implement  callback  functions  to handle  successful  and failed  responses.  
- Update  the UI to display data  retrieved  from the  API. 
-Step 5: Implement  CRUD  Actions:  
- Create:  Capture  user input,  create  a request  body,  and send a POST  request.  
- Read:  Send GET  requests  to fetch  data from the  API and display it. 
- Update:  Capture  user input,  create  a request  body,  and send a PUT  or PATCH  request.  
- Delete:  Send  DELETE requests  to remove  data and update  the UI. 
-Step 6: Error  Handling:  
- Implement  error  handling  to display  appropriate  error  messages  to users.  
- Handle  errors  that might  occur  during  AJAX requests.  
-Step 7: Event Listeners:  
- Set up event  listeners  on UI elements  (e.g., buttons)  to trigger  AJAX  requests.  
- Handle  user interactions  and execute  corresponding  actions.  
-Step 8: Test the Application:  
- 
- 
- Open  your HTML  file in a browser  to test  the AJAX  application.  
- Verify  that CRUD  operations  work  as expected.  
-Step 9: Enhance User  Experience:  
- Implement  loading  indicators  during  AJAX  requests  to improve  UX. 
-
-St. Joseph’s  College  of Engineering  ML1503  Web  Programming  Lab                     Department of AML                                        2024-2025 
-  Use CSS transitions  or animations  to provide  visual  feedback.  
-Step 10: Deploy  the Application:  
- If desired, deploy the  frontend to  a static file  hosting service.  
- Ensure  that your  frontend files  can access  your backend  API endpoints.  
-PROGRAM:  
-index.html  
- 
-&lt;!DOCTYPE  html&gt;  
-&lt;html&gt;  
-&lt;head&gt;  
-&lt;title&gt;Weather  App&lt;/title&gt;  
-&lt;link  rel=&quot;stylesheet&quot;  type=&quot;text/css&quot;  href=&quot;style.css&quot;&gt;  
-&lt;/head&gt;  
-&lt;body&gt;  
-&lt;div class=&quot;container&quot;&gt;  
-&lt;h1&gt;Weather  App&lt;/h1&gt;  
-&lt;form  id=&quot;searchForm &quot;&gt; 
-&lt;input  type=&quot;text&quot;  name=&quot;city&quot;  placeholder=&quot;Enter  city name&quot;&gt;  
-&lt;button  type=&quot;submit&quot;&gt;Search&lt;/button&gt;  
-&lt;/form&gt;  
-&lt;div id=&quot;weatherInfo&quot;&gt;&lt;/div&gt;  
-&lt;/div&gt;  
-&lt;script  src=&quot;script.js&quot;&gt;&lt;/script&gt;  
-&lt;/body&gt;  
-&lt;/html&gt; style.css  
-.container  { max-width: 
-500px;margin:  
-0 auto; tex t- align: center;  
-} 
-h1 { 
-font-size: 3em;  
-} 
-form input[type=text]  { padding:  10px;  font-size: 1.2em;border:  
-none;  
-
-St. Joseph’s  College  of Engineering  ML1503  Web  Programming  Lab                     Department of AML                                        2024-2025 
- border -bottom:  2px solid  #ccc;  
-} 
-form button  { padding:  
-10px;  font- size: 1.2em;  
-background -color:  #4CAF50;color:  white;  border:  
-none;  cursor:  
-pointer;  
-transition:  background -color  0.3s;  
-} 
-form button:hover  { background -color:  
-#3e8e41;  
-} 
-#weatherInfo  { margin -top: 
-20px;font - size: 1.2em;  
-} 
-script.js  
-document.getElementById(&#x27;searchForm&#x27;).addEventListener (&#x27;submit&#x27;,  function(event)  { 
-event.preventDefault();  
- 
-var cityInput  = document.querySelector(&#x27;input[name=&quot;city&quot;]&#x27;);  var cityName  = 
-cityInput.value;  
-if (cityName  !== &#x27;&#x27;) { 
-var xhr  = new XMLHttpRequest();  
-xhr.open(&#x27;GET&#x27;, &#x27;https://api.openweathermap.org/data/2.5/weather?q=&#x27; + 
-encodeURIComponent(cityName)  + &#x27;&amp;appid=6d548e9d58b6f97ecf4c25872b547423&#x27;, 
-true);  
-xhr.onreadystatechange  = function()  { if (xhr.readyState === 4) { 
-if (xhr.status  === 200) { 
-var weath erData  = JSON.parse(xhr.responseText);  var weatherInfo  = 
-document.getElementById(&#x27;weatherInfo&#x27;);  
-weatherInfo.innerHTML  = ` 
-&lt;h2&gt;${weatherData.name}&lt;/h2&gt;  
-&lt;p&gt;Temperature:  ${convertKelvinToCelsius(weatherData.main.temp)}°C&lt;/p&gt;  
-&lt;p&gt;Humidity:  ${weatherData.main.humidity}%&lt;/p&gt;  
-&lt;p&gt;Description:  ${weatherData.weather[0].description}&lt;/p&gt;  
-`; 
-} else { 
-var weatherInfo  = document.getElementById(&#x27;weatherInfo&#x27;);  weatherInfo.innerHTML  
-
-St. Joseph’s  College  of Engineering  ML1503  Web  Programming  Lab                     Department of AML                                        2024-2025 
- = &#x27;Unable  to fetch  weather  information.  Please  try again  later.&#x27;;  
-} 
-} 
-}; 
-xhr.send();  
-} 
-}); 
- 
-function  convertKelvinToCelsius(kelvin)  
-{return  Math.round(kelvin  - 273.15);  
-} 
- 
- 
-OUTPUT:  
- 
- 
-RESULT:  
 
 
-St. Joseph’s  College  of Engineering  ML1503  Web  Programming  Lab                     Department of AML                                        2024-2025</summary><pre></pre></details>
-<details id="sec-18"><summary>EX No: 10</summary><pre></pre></details>
-<details id="sec-19"><summary>EX No: 10 Build  an API by following  API by following  REST  syntax  and 
-Express  JS Application  
-Date:  
- 
-AIM:  
-To build  an API by following  API by following  REST  syntax  and Express  JS 
-Application  
- 
-ALGORITHM  / DESCRIPTION:  
-Step 1: Set Up Your  Project:  
- Create  a new directory  for your  project  and navigate  to it. 
- Initialize  a package.json  file by running  npm init  and following  the prompts.  
-Step 2: Install Dependencies:  
- Install  the required  dependencies  using  npm install  express  to install  Express.js.  
-Step 3: Create the  Express  App:  
- Create  an index.js  (or app.js)  file to set up your Express  application  
-Step 4: Define  API Endpoints:  
- Define  your API endpoints  following  RESTful  principles.  For each resource,  follow 
-these steps:  
- Create  an array  or database  to store  resource  data (for simplicity,  you can use an 
-array).  
- Implement  routes  for GET,  POST,  PUT,  and DELETE  operations.  
-Step 5: Error  Handling:  
- Implement  error  handling  middleware  to catch  and handle  errors  that might  occur 
-during request processing  
-Step 6: Error  Handling:  
- Implement  error  handling  to display  appropriate  error  messages  to users.  
- Handle  errors  that might  occur  during  AJAX requests.  
-Step 7: Event Listeners:  
- Set up event  listeners  on UI elements  (e.g., buttons)  to trigger  AJAX  requests.  
-Step 8: Run the Server:  
- Start  your Express  server  using  node  index.js.  
-Step 9: Test the AP: 
- Use tools  like Postman  or curl to test your API endpoints  and ensure  they behave  as 
-expected.  
 
-St. Joseph’s  College  of Engineering  ML1503  Web  Programming  Lab                     Department of AML                                        2024-2025 
- PROGRAM:  
-index.js  
-const  express  = require(&#x27;express&#x27;); 
-const app = express();  
-const  PORT  = process.env.PORT  || 3000;  // Use environment  port if available 
-app.use(express.json ()); // Middleware to parse JSON requests  
-app.listen(PORT,  () =&gt; { 
-console.log(`Server  is running  on port ${PORT}`);  
-}); 
- 
- 
-Example  for a &quot;todos&quot;  resource:  
- 
- 
-let todos  = []; 
- 
- 
-// GET /todos - Get all todos 
-app.get(&#x27;/todos&#x27;,  (req, res) =&gt; { 
-res.json(todos);  
-}); 
- 
- 
-// GET  /todos/:id  - Get a specific  todo by ID 
-app.get(&#x27;/todos/:id&#x27;, (req, res) =&gt; {  
-const  todoId =  req.params.id;  
-const  todo = todos.find(todo  =&gt; todo.id  === todoId); 
-if (!todo) {  
-return  res.status(404).json({  error:  &#x27;Todo  not found&#x27;  }); 
-} 
-res.json( todo);  
-}); 
- 
- 
-// POST  /todos  - Create  a new todo 
-app.post(&#x27;/todos&#x27;, (req, res) =&gt; { 
-const newTodo = req.body; 
-todos.push(newTodo); 
-res.status(201).json(newTodo);  
 
-St. Joseph’s  College  of Engineering  ML1503  Web  Programming  Lab                     Department of AML                                        2024-2025 
- }); 
- 
- 
-// PUT  /todos/:id  - Update  a todo by ID 
-app.put(&#x27;/todos/:id&#x27;, (req , res) =&gt; { 
-const todoId = req.params.id;  
-const  updatedTodo  = req.body;  
-const  todoIndex  = todos.findIndex(todo  =&gt; todo.id  === todoId); 
-if (todoIndex === -1) { 
-return  res.status(404).json({  error:  &#x27;Todo  not found&#x27;  }); 
-} 
-todos[todoIndex]  = { ...todos[ todoIndex],  ...updatedTodo  }; 
-res.json(todos[todoIndex]);  
-}); 
- 
- 
-// DELETE  /todos/:id  - Delete  a todo by ID 
-app.delete(&#x27;/todos/:id&#x27;, (req, res) =&gt; {  
-const  todoId =  req.params.id;  
-todos  = todos.filter(todo  =&gt; todo.id  !== todoId); 
-res.sendStatus(204);  
-}); 
- 
-Error  Handling  
-app.use((err,  req, res, next)  =&gt; { 
-console.error(err.stack);  
-res.status(500).json({  error:  &#x27;Something  went  wrong!&#x27;  }); 
-}); 
- 
- 
- 
- 
- 
- 
- 
-RESULT:</summary><pre></pre></details>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+7</pre></details>
+<details id="s4"><summary>EX No: 3</summary><pre>EX No: 3  Client  Side Scripts  for Validating  Web  Form  Controls  using  DHTML
+Date:
+AIM:
+To write  a Client -Side script  for validating  web form  controls  using  DHTML.
+ALGORITHM  / DESCRIPTION:
+Step 1: Set up your HTML  form
+Create  an HTML  form  with the required  input  fields  and a submit  button.  Assign
+unique IDs to each input element that needs validation.
+Step 2: Define  the validation function
+Create  a JavaScript  function  that will be called  when  the form  is submitted.  This
+function will validate the form controls  and display error messages  if necessary.
+Step 3: Add form  submission event listener
+Add an event  listener  to the form  element,  which  will call the validateForm()  function
+when the form is submitted.
+Step 4: Style  the error  messages  (optional)
+If you want  to style  the error  messages,  you can add  CSS styles  to display  them  in a
+more visually appealing way.
+Step 5: Test your form  validation
+Save  your HTML  file and open  it in a web browser.  Try submitting  the form  without
+filling in the  required fields, and you should see  the error messages  being displayed.
+
+PROGRAM:
+&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+&lt;meta charset=&quot;UTF -8&quot;&gt;
+&lt;meta name=&quot;viewport&quot; content=&quot;width=device -width,  initial -scale=1.0&quot;&gt;
+&lt;title&gt;Document&lt;/title&gt;
+&lt;style&gt;
+.head{
+text-align: center;
+background -color: rgb(121, 119, 218); border: 3px groove purple;
+}
+.main{
+border: 3px solid #5f5f5f; margin: 5% 10%; padding: 20px;
+}
+
+8  tr{
+padding:10px;
+}
+td{
+padding:10px;
+}
+.but{
+border: 2px inset rgb(65, 49, 209);
+border -radius: 30px;
+width:100px; height:30px;
+background -color: rgb(121, 119, 218);
+}
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;header class=&quot;head&quot;&gt;
+&lt;h2&gt;Registration form&lt;/h2&gt;
+&lt;/header&gt;
+&lt;div class=&quot;main&quot;&gt;
+&lt;center&gt;
+&lt;table&gt;
+&lt;tr&gt;
+&lt;td&gt;User name:&lt;/td&gt;
+&lt;td&gt;&lt;input type=&quot;text&quot; id=&quot;uname&quot; placeholder=&quot;enter user name&quot; required
+onblur=&quot;username()&quot;/&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;br&gt;
+&lt;tr&gt;&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;email:&lt;/td&gt;
+&lt;td&gt;&lt;input type=&quot;email&quot; id=&quot;email&quot; placeholder=&quot;enter email&quot; required onblur=&quot;email()&quot;/&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;/tr&gt;
+
+9  &lt;tr&gt;
+&lt;td&gt;password:&lt;/td&gt;
+&lt;td&gt;&lt;input type=&quot;password&quot; id=&quot;password&quot; placeholder=&quot;enter password&quot; required
+onblur=&quot;pass()&quot;/&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Confirm Password:&lt;/td&gt;
+&lt;td&gt;&lt;input type=&quot;password&quot; id=&quot;cpass&quot; placeholder=&quot;enter confirm pas sword&quot; required
+onblur=&quot;confirmpass()&quot;/&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;select domain:&lt;/td&gt;
+&lt;td&gt;
+&lt;select name=&quot;cars&quot; id=&quot;domain&quot;&gt;
+&lt;option value=&quot;&quot;&gt;please select anyone&lt;/option&gt;
+&lt;option value=&quot;front -end&quot;&gt;front -end&lt;/option&gt;
+&lt;option value=&quot;back -end&quot;&gt;back -end&lt;/option&gt;
+&lt;option value=&quot;machine -learning&quot;&gt;machine -learning&lt;/option&gt;
+&lt;option value=&quot;cloud&quot;&gt;cloud&lt;/option&gt;
+&lt;/select&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;&lt;br&gt;
+&lt;button class=&quot;but&quot; onclick=&quot;submit()&quot;&gt;Submit&lt;/button&gt;&lt;br&gt;
+&lt;/center&gt;
+&lt;script&gt;
+function user name(){
+var name=document.getElementById(&quot;uname&quot;).value;
+if(name.length&lt;0)
+alert(&quot;Field Should not be empty&quot;);
+const regex=&quot;/^[A -Za-z][A-Za-z0-9_]{7,29}$&quot;;
+if(!regex.test(name))
+
+10  alert(&quot;Re Enter Name&quot;);
+}
+}
+Function email()
+{
+var email=document.getElement ById(&quot;email&quot;).value;
+const regex=&quot;/^[a -zA-Z0-9._-]+@[a -zA-Z0-9.-]+\.[a-zA-Z]{2,}$/&quot;;
+if(email.length&lt;0)
+{
+alert(&quot;Field Should not be empty&quot;);
+}
+if(!regex.test(email))
+alert(&quot;Invalid Email&quot;);
+}
+}
+function pass()
+{
+var pas=document.getElementById (&quot;password&quot;).value;
+if(pas.length&lt;0)
+{
+alert(&quot;Field Should not be empty&quot;);
+}
+}
+function confirmpass()
+{
+Var p1=document.getElementById(&quot;cpass&quot;).value;
+var p2= document.getElementById(&quot;password&quot;).value;
+if(p1!=p2)
+{
+alert(&quot;Password Mismatch&quot;);
+
+11  }
+}
+}
+&lt;/scri pt&gt;
+&lt;/body&gt;
+&lt;/html&gt;</pre></details>
+<details id="s5"><summary>EX No: 4</summary><pre>EX No: 4  Design  Image  Slide  Show  and Digital  clock  using  Javascript  and DOM
+Date:
+AIM:
+To design  Image  Slide  Show  and digital  clock  using  Javascript  and DOM.
+ALGORITHM  / DESCRIPTION:
+Step 1: Set up the HTML  structure
+Define  elements  for the slideshow  container,  images,  and clock  display.
+Step 2: Create  the CSS for styling
+Style  your slideshow  container  and clock  using  CSS.  Save  this in a file named
+“styles.css”.
+Step 3: Implement  the JavaScript logic
+Create  a JavaScript  file named  “script.js”  and implement  the logic  for the slideshow
+and digital clock.
+Image  Slideshow:  A slideshow  container  displays  images  one after another.  The images
+will transition every 2 seconds (as specified in the setTimeout function).
+Digital  Clock:  A digital  clock  displays  the current  time.  The time will update  every  second
+(setTimeout function), and the hours, minutes, and seconds changing in real -time.
+Step 4: Link everything together
+Make  sure your HTML  file references  the CSS  file and JavaScript  file you created.
+Step 5:  Add images
+Replace  &quot;image1.jpg&quot;,  &quot;image2.jpg&quot;,  and &quot;image3.jpg&quot;  with the actual  paths  of your
+images.
+
+
+
+
+
+
+
+
+
+
+ PROGRAM:
+&lt;!DOCTYPE  html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;style&gt;
+/* Style  for the slideshow  container  */
+.slideshow -container  {
+max-width: 600px;
+position: relative;
+margin: auto;
+}
+
+
+/* Hide  all slides  by default */
+.mySlides {
+display:  none;
+}
+
+/* Style  for the digital  clock  */
+#clock {
+font-size: 24px;
+text-align: center;
+margin -top: 20px;
+}
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+
+
+&lt;div class=&quot;slideshow -container&quot;&gt;
+&lt;div class=&quot; mySlides&quot;&gt;
+&lt;img  src=&quot;image1.jpg&quot;  style=&quot;width:100%&quot;&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;mySlides&quot;&gt;
+&lt;img  src=&quot;image2.jpg&quot;  style=&quot;width:100%&quot;&gt;
+&lt;/div&gt;
+
+
+ &lt;div class=&quot;mySlides&quot;&gt;
+&lt;img  src=&quot;image3.jpg&quot;  style=&quot;width:100%&quot;&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;div id=&quot;clock&quot;&gt;&lt;/div&gt;
+
+
+&lt;script&gt;
+// Slideshow  script
+var slideIndex  = 0;
+showSlides();
+
+function  showSlides()  {
+var slides  = document.getElementsByClassName(&quot;mySlides&quot;);
+for (var i = 0; i &lt; slides.length; i++) {
+slides[i].style.display  = &quot;none&quot;;
+}
+slideIndex++;
+if (slideIndex  &gt; slides.length)  {
+slideIndex = 1;
+}
+slides[slideIndex - 1].style.display = &quot;block&quot;;
+setTimeout(showSlides,  2000);  // Change  image  every  2 seconds
+}
+
+
+// Digital clock script
+function  updateClock()  {
+var now = new Date();
+var hours  = now.getHours();
+var minutes  = now.getMinutes();
+var seconds =  now.getSeconds();
+
+// Add leading  zeros  if needed
+hours  = (hours &lt;  10) ? &quot;0&quot; + hours  : hours;
+minutes  = (minutes  &lt; 10) ? &quot;0&quot; + minutes  : minutes;
+seconds  = (seconds  &lt; 10) ? &quot;0&quot; + seconds  : seconds;
+
+
+
+
+var currentTime = hours + &quot;:&quot; + minutes + &quot;:&quot; + seconds;
+document.getElementById(&quot;clock&quot;).textContent  = currentTime;
+
+setTimeout(updateClock,  1000);  // Update  every  second
+}
+
+
+updateClock();  // Initial call  to start  the clock
+&lt;/script&gt;
+
+
+&lt;/body&gt;
+&lt;/html&gt;</pre></details>
+<details id="s6"><summary>EX No:5</summary><pre>EX No:5  Develop  an online  quiz system  using  Javascript  and DOM
+Date:
+AIM:
+To design  and develop  a web application  to implement  an online  quiz system  using
+Javascript and DOM.
+ALGORITHM  / DESCRIPTION:
+Step 1: Project  Setup:
+Create  a project  directory  and organize  your files.  You&#x27;ll  need  HTML,  CSS,  and
+JavaScript files. Here&#x27;s a basic structure:
+- index.html
+- style.css
+- script.js
+Step 2: HTML  Structure:
+Set up the basic  HTML  structure  for your quiz application.  Define  containers  for
+questions, options, and buttons.
+Step 3:  CSS Styling:
+Style  your quiz interface using  CSS to make  it visually  appealing  and user-friendly.
+Step 4: JavaScript  Logic:
+Implement  the quiz logic using  JavaScript and  the DOM.
+
+
+ PROGRAM:  (.html  page)
+&lt;!DOCTYPE  html&gt;
+&lt;html  lang=&quot;en&quot;&gt;
+&lt;head&gt;
+&lt;meta  charset=&quot;UTF -8&quot;&gt;
+&lt;meta  http-equiv=&quot;X -UA-Compatible&quot;  content=&quot;IE=edge&quot;&gt;
+&lt;meta  name=&quot;viewport&quot;  content=&quot;width=device -width,  initial -scale=1.0&quot;&gt;
+&lt;link  rel=&quot;stylesheet&quot;  href=&quot;style.css&quot;&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;div class=&quot;panel&quot;&gt;
+&lt;h1&gt;Quiz  Application Using JavaScript&lt;/h1&gt;
+&lt;div class=&quot;question&quot;  id=&quot;ques&quot;&gt;&lt;/div&gt;
+&lt;div class=&quot;options&quot;  id=&quot;opt&quot;&gt;&lt;/div&gt;
+&lt;button  onclick=&quot;checkAns()&quot;  id=&quot;btn&quot;&gt;SUBMIT&lt;/button&gt;
+&lt;div id=&quot;score&quot;&gt;&lt;/div&gt;
+&lt;script  src=&quot;script.js&quot;&gt;&lt;/script&gt;
+&lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+(.css file)
+
+body {
+
+
+}
+background -color:  aliceblue;
+.panel  {
+margin -top: 8%;
+display: flex;
+flex-direction:  column;
+align -items: center;
+justify -content: center;
+color: navy;
+}
+.question {
+font-size: 30px;
+margin -bottom:  20px;
+
+
+ }
+
+
+.options  {
+font-size: 20px;
+display: grid;
+grid-template -columns:  repeat(2,  1fr);
+grid-gap: 20px;
+margin -top: 10px;
+margin -bottom:  20px;
+position: fixed;
+top: 40%;
+left: 40%;
+}
+button {
+margin -right: 75px;
+margin -top: 8%;
+font-size: 20px;
+padding:  10px  20px;
+background -color:  #4f98c2;
+color: white;
+border: none;
+cursor:  pointer;
+}
+#score  {
+font-size: 30px;
+color:  darkslategray;
+}
+(.js page)
+
+// Questions  that will be asked
+const Questions = [{
+q: &quot;What  is capital  of India?&quot;,
+a: [{ text: &quot;Gandhinagar&quot;,  isCorrect:  false  }, { text: &quot;Surat&quot;,  isCorrect:  false  },
+{ text: &quot;Delhi&quot;,  isCorrect:  true }, { text: &quot;Mumbai&quot;,  isCorrect:  false  } ]
+},
+{
+
+
+ q: &quot;What  is the capital  of Thailand?&quot;,
+a: [{ text: &quot;Lampang&quot;,  isCorrect:  false,  isSelected:  false  },
+{ text: &quot;Phuket&quot;,  isCorrect:  false  }, { text: &quot;Ayutthaya&quot;,  isCorrect:  false  },
+{ text: &quot;Bangkok&quot;,  isCorrect:  true } ]
+},
+{
+q: &quot;What is the capital of Gujarat&quot;,
+a: [{ text: &quot;Surat&quot;,  isCorrect:  false  },
+{ text: &quot;Vadodara&quot;,  isCorrect:  false  },
+{ text: &quot;Gandhinagar&quot;,  isCorrect:  true },
+{ text: &quot;Rajkot&quot;,  isCorrect:  false  }
+]
+
+
+}
+
+
+]
+
+
+let currQuestion  = 0
+let score = 0
+
+function  loadQues()  {
+const  question  = document.getElementById(&quot;ques&quot;)
+const opt = document.getElementById(&quot;opt&quot;)
+
+question.textContent  = Questions[currQuestion ].q;
+opt.innerHTML = &quot;&quot;
+
+for (let i = 0; i &lt; Questions[currQuestion].a.length; i++) {
+const choicesdiv = document.createElement(&quot;div&quot;);
+const choice = document.createElement(&quot;input&quot;);
+const  choiceLabel  = document.createElement(&quot;label&quot;);
+
+choice.type = &quot;rad io&quot;;
+choice.name  = &quot;answer&quot;;
+choice.value = i;
+
+
+ choiceLabel.textContent  = Questions[currQuestion].a[i].text;
+
+
+choicesdiv.appendChild(choice);
+choicesdiv.appendChild(choiceLabel);
+opt.appendChild(choicesdiv);
+}
+}
+
+
+loadQues();
+
+
+function  loadScore()  {
+const totalScore = document.getElementById(&quot;score&quot;)
+totalScore.textContent  = `You  scored  ${score}  out of ${Questions.length}`
+}
+
+
+
+function  nextQuestion()  {
+if (currQuestion  &lt; Questions.length  - 1) {
+currQuestion++;
+loadQues();
+} else {
+document.getElementById(&quot;opt&quot;).remove()
+document.getElementById(&quot;ques&quot;).remove()
+document.getElementById(&quot;btn&quot;).remove()
+loadScore();
+}
+}
+
+
+function  checkAns()  {
+const selectedAns =
+parseInt(document.querySelector(&#x27;input[name=&quot;answer&quot;]:checked&#x27;).value);
+
+if (Questions[currQuestion].a[selectedAns].isCorrect)  {
+score++;
+console.log(&quot;Correct&quot;)
+nextQuestion();
+
+
+ } else {
+nextQuestion();
+}
+}</pre></details>
+<details id="s7"><summary>EX No: 6</summary><pre>EX No: 6 Use built -in Angular  directives  to show  and hide elements
+and display  lists of data.
+Date:
+AIM:
+To Use built-in Angular  directives  to show  and hide elements  and display  lists of data.
+ALGORITHM  / DESCRIPTION:
+Step 1: Create  a New  Angular  Project:
+If don&#x27;t  have  an Angular  project  already,  create  one using  Angular  CLI:
+ng new your -project -name
+Replace  your-project -name  with the desired  name  for your project.
+Step 2: Create  a Component:
+Navigate  into project&#x27;s  directory  and create  a new component  using  Angular  CLI:
+ng generate component example
+Step 3: Edit the Component HTML  Template:
+Open  the generated  “example.component.html”  file located  in the “src/app/example/”  folder.
+Step 4: Edit the Component  TypeScript  File:
+Open  the generated “example.component.ts”  file located  in the “src/app/example/”  folder.
+Step 5: Add the Component to  a Parent Component:
+Open  the “app.component.html”  file located  in the “src/app/  folder”.  Replace  the
+content with the html code to add the app -example component.
+Step 6: Run the  Application:
+Navigate  to http://localhost:4200/  in your web browser  to see the running  application.
+ng serve
+
+
+ PROGRAM:  (.html  page)
+&lt;button  (click)=&quot;toggle()&quot;  id=&quot;bt&quot;&gt;
+{{buttonName}}
+&lt;/button&gt;
+&lt;ng-container  *ngIf=&quot;show&quot;&gt;
+&lt;div style=&quot;margin:  0 auto;text -align:  left;&quot;&gt;
+&lt;div&gt;
+&lt;label&gt;Name:&lt;/label&gt;
+&lt;div&gt;&lt;input  id=&quot;tbname&quot;  name=&quot;yourname&quot;  /&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;label&gt;Email  Address:&lt;/label&gt;
+&lt;div&gt;&lt;input  name=&quot;email&quot;  id=&quot;email&quot;  /&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;label&gt;Additional  Information  (optional):&lt;/label&gt;
+&lt;div&gt;&lt;textarea  rows=&quot;5&quot;  cols=&quot;46&quot;&gt;&lt;/textarea&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/ng-container&gt;
+Typescript  page
+import  { Component, OnInit  } from &#x27;@angular/core&#x27;;
+
+
+@Component({
+selector:  &#x27;app-root&#x27;,
+templateUrl:  &#x27;./app.component.html&#x27;,
+styleUrls: [&#x27;./app.component.css&#x27;]
+})
+export class AppComponent {
+public show:boolean = false;
+public  buttonName:any  = &#x27;Show&#x27;;
+
+ngOnInit  () { }
+
+
+toggle()  {
+this.show  = !this.show;
+
+
+ // Change  the name  of the button.
+if(this.show)
+this.buttonName  = &quot;Hide&quot;;
+else
+this.buttonName  = &quot;Show&quot;;
+}
+}</pre></details>
+<details id="s8"><summary>EX No: 7</summary><pre>EX No: 7  Design  a shopping  cart application  using  AngularJS
+Date:
+AIM:
+To Design  a shopping  cart application  using  AngularJS.
+The shopping webpage  should have  provisions  for
+ Selecting  the list of items  from  a different category,
+ Once  the items  are selected  by clicking  the submit  button  the items  in the cart
+with its price should be displayed
+ALGORITHM  / DESCRIPTION:
+Step 1: Set Up the  Project:
+Create  a new directory  for your project  and set up a basic  AngularJS  structure  with the
+necessary files (HTML, JavaScript, CSS).
+Step 2: Create  HTML  Structure:
+In your HTML  file (e.g.,  index.html),  create  the basic  structure  for your shopping  cart
+application. Need areas to display available items, select categories, and display the
+cart content.
+Step 3: Create  AngularJS  Application  and Controller:
+ &lt;html  ng-app&gt;  – It tells Angular  which  parts  of the page  it should handle.
+ &lt;body  ng-controller=’CartController’&gt;  – SCartController will handle  everything  between
+&lt;body&gt;  and &lt;/body&gt;.
+ &lt;tr ng-repeat=”item  in items”&gt;  – It creates  an array  of item.
+ &lt;td&gt;{{item.Name}}&lt;/td&gt;  – Display  Product  Name
+ &lt;td&gt;&lt;input  ng-model=’item.quantity’&gt;&lt;/td&gt;  – The ng-model  makes  data binding  between  the
+input field and the value of quantity.
+ &lt;td&gt;{{item.price  | currency}}&lt;/td&gt;  – Display  the price  of item in $ using  currency tag.
+ &lt;td&gt;  {{item.price  * item.quantity  | currency}}&lt;/td&gt;  – It displays  the total price  of the item
+which is the multiplication of price and quantity.
+ &lt;button  ng-click=‘remove  ($index)’&gt;Remove&lt;/button&gt;  – Creates  a button  remove.  It will
+remove the item if y ou click on this button.
+ function  SCartController($scope)  { } – Manages  the logic  of this application.
+ $scope.items  = [ ]; – It defines  the collection of  item for  your shopping  cart application.
+Step 4: : Style  Application (Optional):
+Open  the generated “ example.component.ts”  file located  in the “src/app/example/”  folder.
+Step 5: Run Application
+Open  the “app.component.html”  file located  in the “src/app/  folder”.  Replace  the
+content with the html code to add the app -example component.
+
+
+
+PROGRAM:
+&lt;html  ng-app=&#x27;scartApp&#x27;&gt;
+&lt;head&gt;
+&lt;script  src=&quot;http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js&quot; &gt;&lt;/script&gt;
+&lt;title&gt;Shopping  Cart&lt;/title&gt;
+&lt;/head&gt;
+&lt;body  ng-controller=&#x27;SCartController&#x27;&gt;
+&lt;h1&gt;Shopping  Cart Application&lt;/h1&gt;
+&lt;div&gt;
+&lt;table  border =  &quot;1&quot;&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;b&gt;Product  Name&lt;/b&gt;&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;Quantity&lt;/b&gt;&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;Price&lt;/b&gt;&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;Total  Price&lt;/b&gt;&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;Operation&lt;/b&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr ng-repeat=&quot;item  in items&quot;&gt;
+&lt;td&gt;{{item.Name}}&lt;/td&gt;
+&lt;td&gt;&lt;input  ng-model=&#x27;item.quantity&#x27;&gt;&lt;/td&gt;
+&lt;td&gt;{{item.price  | currency}}&lt;/td&gt;
+&lt;td&gt;  {{item.price  * item.quantity |  currency}}&lt;/td&gt;
+&lt;td&gt;&lt;button  ng-click=&quot;remove($number)&quot;&gt;Remove&lt;/button&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;script&gt;
+var sapp = angular.module(&#x27;scartApp&#x27;, []);
+sapp.controller(&#x27;SCartController&#x27;,  [&#x27;$scope&#x27;,  function($scope)  {
+$scope.items  = [
+{Name:  &#x27;Saree&#x27;,  quantity:  10, price:  100},
+{Name:  &#x27;Mojari&#x27;, quantity:  12, price: 40},
+{Name:  &#x27;Bangles&#x27;,  quantity:8,  price:  15},
+{Name:  &#x27;Jeans&#x27;,  quantity:5,  price:  20}
+];
+
+
+ $scope.remove  = function(number)  {
+$scope.items.splice(number,  1);
+}
+}]);
+&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;&lt;button  ng-click=&quot;remove($index)&quot;&gt;Remove&lt;/button&gt;
+&lt;/div&gt;
+&lt;script  src=&quot;angular.js&quot;&gt;&lt;/script&gt;
+&lt;script&gt;
+function  CartController($scope)  {
+$scope.items  = [
+{title:  &#x27;Paint  pots&#x27;,  quantity:  8, price:  3.95},
+{title:  &#x27;Polka  dots&#x27;,  quantity:  17, price:  12.95},
+{title:  &#x27;Pebbles&#x27;,  quantity:  5, price:  6.95}
+];
+$scope.remove  = function(index)  {
+$scope.items.splice(index,  1);
+}
+}
+&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</pre></details>
+<details id="s9"><summary>EX No: 8</summary><pre>EX No: 8 Design  a Command  Line  Application  for an online  supermarket
+using  Node  JS and MySQL  database
+Date:
+
+AIM:
+Design  a Command  Line Application  for an online supermarket  using  Node JS  and
+MySQL  database
+a) To perform  a search  based  on product  id or name
+with the Price field in sorted order
+
+ALGORITHM  / DESCRIPTION:
+Step 1: Set Up the  Project:
+ Create a new directory for project.
+mkdir  online -supermarket -cli
+cd online -supermarket -cli
+ Open  a terminal  window  and navigate  to the project  directory.
+ Run npm init to  initialize  a new Node.js  project.
+npm  init
+ Follow  the prompts  to set up your package.json  file.
+ Install  required  dependencies:
+npm  install  mysql  inquirer  cli-table3
+Step 2: Set Up  MySQL  Database:
+ Install  MySQL  on your Linux  system if  not already installed.
+ Create  a new database  and a table  to store  products.
+Set up your MySQL  database  with a table  named  “products” . The table  should
+have columns such as “ id, name, brand, and price” .
+Step 3: Create the  Command Line  Interface  (CLI):
+Create  a new file named cli.js  in your project directory.
+Inside  cli.js,  import  the necessary  modules  and create  a function  for searching
+products
+Step 4:  Run the CLI  Application:
+ Open  a terminal  window.
+ Navigate  to your project  directory.
+ Run the application  using  node  app.js .
+ The application  will prompt  you to enter  a product  ID or name  to search  for. It will
+ Remember  to replace  placeholders  like &#x27;your_username&#x27; , &#x27;your_password&#x27; , and
+&#x27;your_database_name&#x27;  with actual  database  credentials  and names.
+
+
+ PROGRAM:  (Javascript  code)
+
+const mysql = require(&#x27;mysql&#x27;);
+const  inquirer  = require(&#x27;inquirer&#x27;);
+const Table = require(&#x27;cli -table3&#x27;);
+
+// Create  a MySQL  connection
+const  connection  = mysql.createConnection({
+host: &#x27;localhost&#x27;,
+user: &#x27;your_db_username&#x27;,
+password:  &#x27;your_db_password&#x27;,
+database: &#x27;your_db_name&#x27;,
+});
+
+
+connection.connect((err)  =&gt; {
+if (err) {
+console.error(&#x27;Error  connecting  to the database:&#x27;,  err);
+return;
+}
+console.log(&#x27;Connected  to the database&#x27;);
+startSearch();
+});
+
+
+function  startSearch()  {
+inquirer
+.prompt([
+{
+type: &#x27;input&#x27;,
+name:  &#x27;searchQuery&#x27;,
+message:  &#x27;Enter  product ID  or name:&#x27;,
+},
+])
+.then((answers)  =&gt; {
+const  query  = `SELECT  * FROM  products  WHERE  id LIKE  ? OR name  LIKE  ?`;
+const searchTerm = `%${answers.searchQuery}%`;
+
+
+ if (err) {
+console.error(&#x27;Error  executing  query:&#x27;,  err);
+connection.end();
+return;
+}
+console.log(&#x27;No  products  found.&#x27;);
+} else {
+}
+connection.end();
+});
+});
+}
+
+
+function  displayProductDetails(products)  {
+const table = new Table({
+head:  [&#x27;ID&#x27;,  &#x27;Name&#x27;,  &#x27;Brand&#x27;,  &#x27;Price&#x27;],
+colWidths: [10, 30, 20, 10],
+});
+products.sort((a,  b) =&gt; a.price  - b.price);
+products.forEach((product) =&gt; {
+table.push([product.id,  product.name,  product.brand,  `$${product.price.toFixed(2)}`]);
+});
+
+
+console.log(table.toString());
+}</pre></details>
+<details id="s10"><summary>EX No: 9</summary><pre>EX No: 9 Build  an API by following  AJAX  Application
+Date:
+
+AIM:
+To build  an API by following  AJAX  Application
+
+ALGORITHM  / DESCRIPTION:
+Step 1: Create  Frontend  Files:
+ Create  an HTML  file to serve  as the foundation of your  frontend  application.
+ Create  a JavaScript file  to write  your frontend logic.
+Step 2: Design the  UI:
+ Design  the user interface  using  HTML  and CSS.
+ Include  input  fields,  buttons,  and elements  to display  fetched  data.
+Step 3: AJAX  Requests:
+ In your JavaScript  file, write  code  to make  AJAX requests  to your API.
+ Use the XMLHttpRequest  object or  the modern  Fetch  API for sending requests.
+Step 4: Handle Responses:
+ Implement  callback  functions  to handle  successful  and failed  responses.
+ Update  the UI to display data  retrieved  from the  API.
+Step 5: Implement  CRUD  Actions:
+ Create:  Capture  user input,  create  a request  body,  and send a POST  request.
+ Read:  Send GET  requests  to fetch  data from the  API and display it.
+ Update:  Capture  user input,  create  a request  body,  and send a PUT  or PATCH  request.
+ Delete:  Send  DELETE requests  to remove  data and update  the UI.
+Step 6: Error  Handling:
+ Implement  error  handling  to display  appropriate  error  messages  to users.
+ Handle  errors  that might  occur  during  AJAX requests.
+Step 7: Event Listeners:
+ Set up event  listeners  on UI elements  (e.g., buttons)  to trigger  AJAX  requests.
+ Handle  user interactions  and execute  corresponding  actions.
+Step 8: Test the Application:
+
+
+ Open  your HTML  file in a browser  to test  the AJAX  application.
+ Verify  that CRUD  operations  work  as expected.
+Step 9: Enhance User  Experience:
+ Implement  loading  indicators  during  AJAX  requests  to improve  UX.
+
+  Use CSS transitions  or animations  to provide  visual  feedback.
+Step 10: Deploy  the Application:
+ If desired, deploy the  frontend to  a static file  hosting service.
+ Ensure  that your  frontend files  can access  your backend  API endpoints.
+PROGRAM:
+index.html
+
+&lt;!DOCTYPE  html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;title&gt;Weather  App&lt;/title&gt;
+&lt;link  rel=&quot;stylesheet&quot;  type=&quot;text/css&quot;  href=&quot;style.css&quot;&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;div class=&quot;container&quot;&gt;
+&lt;h1&gt;Weather  App&lt;/h1&gt;
+&lt;form  id=&quot;searchForm &quot;&gt;
+&lt;input  type=&quot;text&quot;  name=&quot;city&quot;  placeholder=&quot;Enter  city name&quot;&gt;
+&lt;button  type=&quot;submit&quot;&gt;Search&lt;/button&gt;
+&lt;/form&gt;
+&lt;div id=&quot;weatherInfo&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;script  src=&quot;script.js&quot;&gt;&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt; style.css
+.container  { max-width:
+500px;margin:
+0 auto; tex t- align: center;
+}
+h1 {
+font-size: 3em;
+}
+form input[type=text]  { padding:  10px;  font-size: 1.2em;border:
+none;
+
+ border -bottom:  2px solid  #ccc;
+}
+form button  { padding:
+10px;  font- size: 1.2em;
+background -color:  #4CAF50;color:  white;  border:
+none;  cursor:
+pointer;
+transition:  background -color  0.3s;
+}
+form button:hover  { background -color:
+#3e8e41;
+}
+#weatherInfo  { margin -top:
+20px;font - size: 1.2em;
+}
+script.js
+document.getElementById(&#x27;searchForm&#x27;).addEventListener (&#x27;submit&#x27;,  function(event)  {
+event.preventDefault();
+
+var cityInput  = document.querySelector(&#x27;input[name=&quot;city&quot;]&#x27;);  var cityName  =
+cityInput.value;
+if (cityName  !== &#x27;&#x27;) {
+var xhr  = new XMLHttpRequest();
+xhr.open(&#x27;GET&#x27;, &#x27;https://api.openweathermap.org/data/2.5/weather?q=&#x27; +
+encodeURIComponent(cityName)  + &#x27;&amp;appid=6d548e9d58b6f97ecf4c25872b547423&#x27;,
+true);
+xhr.onreadystatechange  = function()  { if (xhr.readyState === 4) {
+if (xhr.status  === 200) {
+var weath erData  = JSON.parse(xhr.responseText);  var weatherInfo  =
+document.getElementById(&#x27;weatherInfo&#x27;);
+weatherInfo.innerHTML  = `
+&lt;h2&gt;${weatherData.name}&lt;/h2&gt;
+&lt;p&gt;Temperature:  ${convertKelvinToCelsius(weatherData.main.temp)}°C&lt;/p&gt;
+&lt;p&gt;Humidity:  ${weatherData.main.humidity}%&lt;/p&gt;
+&lt;p&gt;Description:  ${weatherData.weather[0].description}&lt;/p&gt;
+`;
+} else {
+var weatherInfo  = document.getElementById(&#x27;weatherInfo&#x27;);  weatherInfo.innerHTML
+
+ = &#x27;Unable  to fetch  weather  information.  Please  try again  later.&#x27;;
+}
+}
+};
+xhr.send();
+}
+});
+
+function  convertKelvinToCelsius(kelvin)
+{return  Math.round(kelvin  - 273.15);
+}</pre></details>
+<details id="s11"><summary>EX No: 10</summary><pre>EX No: 10 Build  an API by following  API by following  REST  syntax  and
+Express  JS Application
+Date:
+
+AIM:
+To build  an API by following  API by following  REST  syntax  and Express  JS
+Application
+
+ALGORITHM  / DESCRIPTION:
+Step 1: Set Up Your  Project:
+ Create  a new directory  for your  project  and navigate  to it.
+ Initialize  a package.json  file by running  npm init  and following  the prompts.
+Step 2: Install Dependencies:
+ Install  the required  dependencies  using  npm install  express  to install  Express.js.
+Step 3: Create the  Express  App:
+ Create  an index.js  (or app.js)  file to set up your Express  application
+Step 4: Define  API Endpoints:
+ Define  your API endpoints  following  RESTful  principles.  For each resource,  follow
+these steps:
+ Create  an array  or database  to store  resource  data (for simplicity,  you can use an
+array).
+ Implement  routes  for GET,  POST,  PUT,  and DELETE  operations.
+Step 5: Error  Handling:
+ Implement  error  handling  middleware  to catch  and handle  errors  that might  occur
+during request processing
+Step 6: Error  Handling:
+ Implement  error  handling  to display  appropriate  error  messages  to users.
+ Handle  errors  that might  occur  during  AJAX requests.
+Step 7: Event Listeners:
+ Set up event  listeners  on UI elements  (e.g., buttons)  to trigger  AJAX  requests.
+Step 8: Run the Server:
+ Start  your Express  server  using  node  index.js.
+Step 9: Test the AP:
+ Use tools  like Postman  or curl to test your API endpoints  and ensure  they behave  as
+expected.
+
+ PROGRAM:
+index.js
+const  express  = require(&#x27;express&#x27;);
+const app = express();
+const  PORT  = process.env.PORT  || 3000;  // Use environment  port if available
+app.use(express.json ()); // Middleware to parse JSON requests
+app.listen(PORT,  () =&gt; {
+console.log(`Server  is running  on port ${PORT}`);
+});
+
+
+Example  for a &quot;todos&quot;  resource:
+
+
+let todos  = [];
+
+
+// GET /todos - Get all todos
+app.get(&#x27;/todos&#x27;,  (req, res) =&gt; {
+res.json(todos);
+});
+
+
+// GET  /todos/:id  - Get a specific  todo by ID
+app.get(&#x27;/todos/:id&#x27;, (req, res) =&gt; {
+const  todoId =  req.params.id;
+const  todo = todos.find(todo  =&gt; todo.id  === todoId);
+if (!todo) {
+return  res.status(404).json({  error:  &#x27;Todo  not found&#x27;  });
+}
+res.json( todo);
+});
+
+
+// POST  /todos  - Create  a new todo
+app.post(&#x27;/todos&#x27;, (req, res) =&gt; {
+const newTodo = req.body;
+todos.push(newTodo);
+res.status(201).json(newTodo);
+
+ });
+
+
+// PUT  /todos/:id  - Update  a todo by ID
+app.put(&#x27;/todos/:id&#x27;, (req , res) =&gt; {
+const todoId = req.params.id;
+const  updatedTodo  = req.body;
+const  todoIndex  = todos.findIndex(todo  =&gt; todo.id  === todoId);
+if (todoIndex === -1) {
+return  res.status(404).json({  error:  &#x27;Todo  not found&#x27;  });
+}
+todos[todoIndex]  = { ...todos[ todoIndex],  ...updatedTodo  };
+res.json(todos[todoIndex]);
+});
+
+
+// DELETE  /todos/:id  - Delete  a todo by ID
+app.delete(&#x27;/todos/:id&#x27;, (req, res) =&gt; {
+const  todoId =  req.params.id;
+todos  = todos.filter(todo  =&gt; todo.id  !== todoId);
+res.sendStatus(204);
+});
+
+Error  Handling
+app.use((err,  req, res, next)  =&gt; {
+console.error(err.stack);
+res.status(500).json({  error:  &#x27;Something  went  wrong!&#x27;  });
+});</pre></details>
+<footer>Generated from uploaded PDF — cleaned headers/footers removed</footer>
 </div>
-<footer>Generated from uploaded PDF — ML1503 Staff Manual</footer>
 <script>
 const search = document.getElementById('search');
-const sections = Array.from(document.querySelectorAll('details'));
+const details = Array.from(document.querySelectorAll('details'));
 search.addEventListener('input', function(){
   const q = this.value.trim().toLowerCase();
-  sections.forEach(s => {
-    const text = s.textContent.toLowerCase();
-    s.style.display = text.includes(q) ? 'block' : 'none';
+  details.forEach(d => {
+    const txt = d.textContent.toLowerCase();
+    d.style.display = txt.includes(q) ? 'block' : 'none';
   });
 });
 </script>
