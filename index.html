@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ML1503 - Web Programming Lab Notes</title>
+<style>
+    body {
+        font-family: "Poppins", sans-serif;
+        background: #fdfdfd;
+        margin: 0;
+        color: #222;
+    }
+    header {
+        background: #2c3e50;
+        color: #fff;
+        text-align: center;
+        padding: 1.2em;
+        font-size: 1.5em;
+        font-weight: 600;
+    }
+    #searchBox {
+        width: 90%;
+        display: block;
+        margin: 10px auto 20px auto;
+        padding: 10px;
+        font-size: 1em;
+        border-radius: 8px;
+        border: 1px solid #aaa;
+        outline: none;
+    }
+    details {
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        margin: 10px 20px;
+        padding: 15px;
+        background: #fff;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    summary {
+        cursor: pointer;
+        font-weight: 600;
+        font-size: 1.1em;
+        color: #2c3e50;
+    }
+    details[open] summary {
+        color: #e74c3c;
+    }
+    pre {
+        background: #f4f4f4;
+        padding: 10px;
+        border-radius: 6px;
+        overflow-x: auto;
+        margin-top: 8px;
+    }
+    code {
+        color: #c0392b;
+    }
+    footer {
+        background: #2c3e50;
+        color: #fff;
+        text-align: center;
+        padding: 10px;
+        font-size: 0.9em;
+        margin-top: 30px;
+    }
+</style>
+</head>
+<body>
+
+<header>ML1503 – Web Programming Lab Notes</header>
+
+<input type="text" id="searchBox" placeholder="Search any keyword...">
+
+<div id="notes">
+
+<details>
+<summary>EX 1: Webpage using all HTML elements</summary>
+<p><b>Aim:</b> To design a webpage using all HTML elements.</p>
+<pre><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;&lt;title&gt;My Portfolio&lt;/title&gt;&lt;/head&gt;
+&lt;body&gt;
+&lt;h1&gt;My Portfolio&lt;/h1&gt;
+&lt;p&gt;I am an IT student studying at St. Joseph's College of Engineering.&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+</details>
+
+<details>
+<summary>EX 2: CSS Types & Selectors</summary>
+<p><b>Aim:</b> To create a webpage demonstrating Inline, Internal, and External CSS with selectors.</p>
+<pre><code>&lt;style&gt;
+p { color: red; }
+.highlight { background-color: yellow; }
+#header { font-size: 24px; }
+&lt;/style&gt;
+</code></pre>
+</details>
+
+<details>
+<summary>EX 3: Form Validation using DHTML</summary>
+<p><b>Aim:</b> To validate form controls using client-side scripting.</p>
+<pre><code>&lt;script&gt;
+function confirmpass() {
+  var p1=document.getElementById("cpass").value;
+  var p2=document.getElementById("password").value;
+  if(p1!=p2) alert("Password Mismatch");
+}
+&lt;/script&gt;</code></pre>
+</details>
+
+<details>
+<summary>EX 4: Image Slideshow & Digital Clock</summary>
+<p><b>Aim:</b> To design an image slideshow and a digital clock using JavaScript & DOM.</p>
+<pre><code>setTimeout(showSlides, 2000);
+setTimeout(updateClock, 1000);
+</code></pre>
+</details>
+
+<details>
+<summary>EX 5: Online Quiz System</summary>
+<p><b>Aim:</b> To design an online quiz using JavaScript & DOM.</p>
+<pre><code>const Questions = [{ q: "What is capital of India?", 
+a:[{text:"Delhi", isCorrect:true}] }];
+</code></pre>
+</details>
+
+<details>
+<summary>EX 6: Angular Directives</summary>
+<p><b>Aim:</b> To use Angular directives to show/hide elements and display data lists.</p>
+<pre><code>&lt;button (click)="toggle()"&gt;{{buttonName}}&lt;/button&gt;
+</code></pre>
+</details>
+
+<details>
+<summary>EX 7: Shopping Cart using AngularJS</summary>
+<p><b>Aim:</b> To design a shopping cart application using AngularJS.</p>
+<pre><code>&lt;tr ng-repeat="item in items"&gt;
+&lt;td&gt;{{item.Name}}&lt;/td&gt;
+&lt;td&gt;{{item.price | currency}}&lt;/td&gt;
+&lt;/tr&gt;
+</code></pre>
+</details>
+
+<details>
+<summary>EX 8: NodeJS & MySQL CLI App</summary>
+<p><b>Aim:</b> To design a command-line supermarket app using NodeJS and MySQL.</p>
+<pre><code>npm install mysql inquirer cli-table3
+SELECT * FROM products WHERE id LIKE ? OR name LIKE ?;
+</code></pre>
+</details>
+
+<details>
+<summary>EX 9: AJAX API Application</summary>
+<p><b>Aim:</b> To build a weather app using AJAX and OpenWeather API.</p>
+<pre><code>xhr.open('GET', 'https://api.openweathermap.org/data/2.5/weather?...');
+</code></pre>
+</details>
+
+<details>
+<summary>EX 10: REST API using ExpressJS</summary>
+<p><b>Aim:</b> To build an API using REST syntax and ExpressJS.</p>
+<pre><code>app.get('/todos', (req, res) => { res.json(todos); });
+</code></pre>
+</details>
+
+</div>
+
+<footer>© 2025 St. Joseph's College of Engineering - AML Dept</footer>
+
+<script>
+const searchBox = document.getElementById("searchBox");
+const notes = document.querySelectorAll("#notes details");
+
+searchBox.addEventListener("input", () => {
+  const query = searchBox.value.toLowerCase();
+  notes.forEach(note => {
+    const text = note.textContent.toLowerCase();
+    note.style.display = text.includes(query) ? "block" : "none";
+  });
+});
+</script>
+
+</body>
+</html>
